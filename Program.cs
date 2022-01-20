@@ -15,9 +15,16 @@ namespace Project_Excelsior
         [STAThread]
         static void Main()
         {
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Splash());
+
+            // cancels closing of app if it the first form is closed like a mother fucker
+            var spash = new Splash();
+            spash.Show();
+            Application.Run();
+
         }
     }
 }

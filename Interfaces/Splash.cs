@@ -20,7 +20,12 @@ namespace Project_Excelsior.Interfaces
 
         private void Splash_Load(object sender, EventArgs e)
         {
-            // Seconds
+
+            // Extra Properties at bootup
+            this.Icon = Properties.Resources.SVCC_Icon_Fixed;
+            VersionLabel.Text = Properties.Resources.appVersion;
+
+            // Splash Timer
             timer1.Start();
             timer1.Interval = 1000;
         }
@@ -34,10 +39,10 @@ namespace Project_Excelsior.Interfaces
             {
                 // MessageBox.Show("Hello world");
 
-                LandingPage LP = new LandingPage ();
-                LP.Show();
-                this.Hide();
-                this.Dispose();
+                LandingPage lp = new LandingPage();
+                lp.Show();
+                this.Close();
+               
             }
         }
     }
