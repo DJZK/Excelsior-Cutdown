@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Project_Excelsior.Functions;
 
 namespace Project_Excelsior.Interfaces
 {
@@ -15,6 +16,17 @@ namespace Project_Excelsior.Interfaces
         public ResourcesPage()
         {
             InitializeComponent();
+        }
+
+        private void ResourcesPage_Load(object sender, EventArgs e)
+        {
+            // On Load Settings
+            Icon = Properties.Resources.SVCC_Icon_Fixed;
+        }
+
+        private void ResourcesPage_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            FormChecker.CheckForms();
         }
     }
 }

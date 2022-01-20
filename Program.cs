@@ -15,8 +15,7 @@ namespace Project_Excelsior
         [STAThread]
         static void Main()
         {
-
-
+            // Startup properties
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 

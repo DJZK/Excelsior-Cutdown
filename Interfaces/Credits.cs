@@ -21,6 +21,7 @@ namespace Project_Excelsior.Interfaces
         private void Credits_Load(object sender, EventArgs e)
         {
             // Form load details
+           
             LabelCredits.Text = Properties.Resources.appVersion;
             Icon = Properties.Resources.SVCC_Icon_Fixed;
         }

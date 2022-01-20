@@ -84,6 +84,8 @@
       <DependentUpon>CompanyLogo.resx</DependentUpon>
     </Compile>
     <Compile Include="Functions\FormChecker.cs" />
+    <Compile Include="Functions\Launcher.cs" />
+    <Compile Include="Functions\MessageFunctions.cs" />
     <Compile Include="Interfaces\Credits.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +97,12 @@
     </Compile>
     <Compile Include="Interfaces\Donate.Designer.cs">
       <DependentUpon>Donate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Google Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Google Login.Designer.cs">
+      <DependentUpon>Google Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\LandingPage.cs">
       <SubType>Form</SubType>
@@ -129,8 +137,20 @@
     <EmbeddedResource Include="Interfaces\Credits.resx">
       <DependentUpon>Credits.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Donate.resx">
+      <DependentUpon>Donate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Google Login.resx">
+      <DependentUpon>Google Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\MainBrowser.resx">
+      <DependentUpon>MainBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\ResourcesPage.resx">
+      <DependentUpon>ResourcesPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Splash.resx">
       <DependentUpon>Splash.cs</DependentUpon>
