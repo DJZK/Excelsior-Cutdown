@@ -604,6 +604,7 @@
             this.GmailLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GmailLogo.TabIndex = 0;
             this.GmailLogo.TabStop = false;
+            this.GmailLogo.Click += new System.EventHandler(this.GmailLogo_Click);
             // 
             // TitleLabel
             // 
@@ -850,7 +851,7 @@
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 15);
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(650, 398);
+            this.ClientSize = new System.Drawing.Size(667, 398);
             this.Controls.Add(this.CloudDriveGroup);
             this.Controls.Add(this.Panel2);
             this.Controls.Add(this.FileSharingGroup);
@@ -864,6 +865,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ResourcesPage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tools and Resource";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ResourcesPage_FormClosed);
             this.Load += new System.EventHandler(this.ResourcesPage_Load);

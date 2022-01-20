@@ -28,5 +28,12 @@ namespace Project_Excelsior.Interfaces
         {
             FormChecker.CheckForms();
         }
+
+        private void GmailLogo_Click(object sender, EventArgs e)
+        {
+            Uri uri = new Uri(Properties.Resources.gmailURL);
+            Launcher.AuthGoogle("Google Mail", uri);
+            this.Close();
+        }
     }
 }

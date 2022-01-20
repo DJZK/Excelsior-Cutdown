@@ -66,5 +66,17 @@ namespace Project_Excelsior.Functions
                 
 
         }
+
+        public static void AuthGoogle(string title, Uri source)
+        {
+            Google_Login google = new Google_Login
+            {
+                forwardLink = source,
+                forwardTitle = title
+            };
+            google.Show();
+
+
+        }
     }
 }

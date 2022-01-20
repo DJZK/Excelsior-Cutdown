@@ -38,9 +38,11 @@
             this.GoogleAuth.DefaultBackgroundColor = System.Drawing.Color.White;
             this.GoogleAuth.Location = new System.Drawing.Point(-2, 0);
             this.GoogleAuth.Name = "GoogleAuth";
-            this.GoogleAuth.Size = new System.Drawing.Size(338, 453);
+            this.GoogleAuth.Size = new System.Drawing.Size(350, 463);
             this.GoogleAuth.TabIndex = 0;
             this.GoogleAuth.ZoomFactor = 1D;
+            this.GoogleAuth.CoreWebView2InitializationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs>(this.GoogleAuth_CoreWebView2InitializationCompleted);
+            this.GoogleAuth.ContentLoading += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2ContentLoadingEventArgs>(this.GoogleAuth_ContentLoading);
             // 
             // Google_Login
             // 
@@ -54,6 +56,7 @@
             this.Name = "Google_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Google Login";
+            this.Load += new System.EventHandler(this.Google_Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GoogleAuth)).EndInit();
             this.ResumeLayout(false);
 

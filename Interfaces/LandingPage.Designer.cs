@@ -88,7 +88,7 @@
             // contributeToolStripMenuItem
             // 
             this.contributeToolStripMenuItem.Name = "contributeToolStripMenuItem";
-            this.contributeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contributeToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.contributeToolStripMenuItem.Text = "Contribute";
             this.contributeToolStripMenuItem.Click += new System.EventHandler(this.contributeToolStripMenuItem_Click);
             // 
@@ -111,6 +111,7 @@
             this.ResourcesButton.TabIndex = 15;
             this.ResourcesButton.Text = "Launch Resources";
             this.ResourcesButton.UseVisualStyleBackColor = true;
+            this.ResourcesButton.Click += new System.EventHandler(this.ResourcesButton_Click);
             // 
             // ExitButton
             // 

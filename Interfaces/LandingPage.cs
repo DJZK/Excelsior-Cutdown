@@ -61,5 +61,10 @@ namespace Project_Excelsior.Interfaces
             Launcher.LaunchWindow("SVCC NeoLMS", uri);
             this.Close();
         }
+
+        private void ResourcesButton_Click(object sender, EventArgs e)
+        {
+            Launcher.LaunchWindow("resourcesPage");
+        }
     }
 }
