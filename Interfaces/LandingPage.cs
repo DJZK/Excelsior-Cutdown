@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_Excelsior
+namespace Project_Excelsior.Interfaces
 {
-    public partial class Form1 : Form
+    public partial class LandingPage : Form
     {
-        public Form1()
+        public LandingPage()
         {
             InitializeComponent();
         }
