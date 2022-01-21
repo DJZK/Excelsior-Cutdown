@@ -74,7 +74,7 @@ namespace Project_Excelsior.Interfaces
 
         private void Google_Login_FormClosed(object sender, FormClosedEventArgs e)
         {
-
+            FormChecker.CheckForms();
         }
     }
 }
