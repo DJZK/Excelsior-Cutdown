@@ -185,9 +185,9 @@
             // 
             this.WebView2.CreationProperties = null;
             this.WebView2.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.WebView2.Location = new System.Drawing.Point(0, 33);
+            this.WebView2.Location = new System.Drawing.Point(0, 24);
             this.WebView2.Name = "WebView2";
-            this.WebView2.Size = new System.Drawing.Size(679, 442);
+            this.WebView2.Size = new System.Drawing.Size(679, 457);
             this.WebView2.TabIndex = 2;
             this.WebView2.ZoomFactor = 1D;
             this.WebView2.CoreWebView2InitializationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs>(this.WebView2_CoreWebView2InitializationCompleted);
