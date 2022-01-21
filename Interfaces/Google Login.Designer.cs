@@ -60,7 +60,7 @@
             this.ClientSize = new System.Drawing.Size(348, 499);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.GoogleAuth);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Google_Login";

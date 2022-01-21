@@ -65,6 +65,11 @@ namespace Project_Excelsior.Interfaces
                 Launcher.LaunchWindow(forwardTitle, forwardLink);
                 this.Close();
             }
+            else if (GoogleAuth.Source.ToString().Equals("https://myaccount.google.com/general-light"))
+            {
+                Launcher.LaunchWindow(forwardTitle, forwardLink);
+                this.Close();
+            }
         }
     }
 }
