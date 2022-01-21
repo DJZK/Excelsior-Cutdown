@@ -203,6 +203,7 @@
             this.Name = "MainBrowser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SVCC System";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainBrowser_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainBrowser_FormClosed);
             this.Load += new System.EventHandler(this.MainBrowser_Load);
             this.Resize += new System.EventHandler(this.MainBrowser_Resize);

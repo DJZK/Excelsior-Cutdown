@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_Excelsior.Functions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Project_Excelsior.Functions;
 
 namespace Project_Excelsior.Interfaces
 {
@@ -16,7 +16,7 @@ namespace Project_Excelsior.Interfaces
 
         public Uri source;
         public String title;
-        private Boolean bypass;
+        private Boolean bypass = false;
         private MessageFunctions messenger = new MessageFunctions();
 
         public MainBrowser()
@@ -42,11 +42,7 @@ namespace Project_Excelsior.Interfaces
 
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (messenger.ExitStatementConfirm())
-            {
-                bypass = true;
-                this.Close();
-            }
+            this.Close();
         }
 
         private void NavigateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -78,7 +74,7 @@ namespace Project_Excelsior.Interfaces
         {
             Uri link = new Uri(Properties.Resources.neoLMSURL);
             Launcher.LaunchWindow("SVCC NeoLMS", link);
-         }
+        }
 
         private void MainBrowser_Resize(object sender, EventArgs e)
         {
@@ -111,7 +107,7 @@ namespace Project_Excelsior.Interfaces
 
         private void DonateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+
             Launcher.LaunchWindow("donate");
         }
 
@@ -142,6 +138,28 @@ namespace Project_Excelsior.Interfaces
         private void WebView2_NavigationCompleted(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationCompletedEventArgs e)
         {
             PageNameToolStripMenuItem.Text = WebView2.CoreWebView2.DocumentTitle;
+        }
+
+        private void MainBrowser_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (bypass)
+            {
+                Dispose();
+            }
+            else
+            {
+                if (messenger.ExitStatementConfirm())
+                {
+                    bypass = true;
+                    Dispose();
+                }
+                else
+                {
+                    e.Cancel = true;
+
+                }
+            }
+          
         }
     }
 }

@@ -75,5 +75,14 @@ namespace Project_Excelsior.Interfaces
                 Application.Exit();
             }
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageFunctions messenger = new MessageFunctions();
+            if (messenger.ExitAllConfirm())
+            {
+                Application.Exit();
+            }
+        }
     }
 }
