@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="appVersion" xml:space="preserve">
-    <value>release v1.1.19.2</value>
+    <value>release v2.0.7.0</value>
   </data>
   <data name="carlEmail" xml:space="preserve">
     <value>carljordee11@gmail.com</value>

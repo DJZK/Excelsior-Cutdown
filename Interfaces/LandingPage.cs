@@ -66,5 +66,14 @@ namespace Project_Excelsior.Interfaces
         {
             Launcher.LaunchWindow("resourcesPage");
         }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            MessageFunctions messenger = new MessageFunctions();
+            if (messenger.ExitAllConfirm())
+            {
+                Application.Exit();
+            }
+        }
     }
 }

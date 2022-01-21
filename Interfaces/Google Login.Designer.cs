@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.GoogleAuth = new Microsoft.Web.WebView2.WinForms.WebView2();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleAuth)).BeginInit();
             this.SuspendLayout();
             // 
@@ -36,21 +37,30 @@
             // 
             this.GoogleAuth.CreationProperties = null;
             this.GoogleAuth.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.GoogleAuth.Location = new System.Drawing.Point(-2, 0);
+            this.GoogleAuth.Location = new System.Drawing.Point(-1, 20);
             this.GoogleAuth.Name = "GoogleAuth";
-            this.GoogleAuth.Size = new System.Drawing.Size(350, 463);
+            this.GoogleAuth.Size = new System.Drawing.Size(350, 478);
             this.GoogleAuth.TabIndex = 0;
             this.GoogleAuth.ZoomFactor = 1D;
             this.GoogleAuth.CoreWebView2InitializationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs>(this.GoogleAuth_CoreWebView2InitializationCompleted);
             this.GoogleAuth.ContentLoading += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2ContentLoadingEventArgs>(this.GoogleAuth_ContentLoading);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(0, -1);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(348, 20);
+            this.textBox1.TabIndex = 1;
+            // 
             // Google_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(348, 465);
+            this.ClientSize = new System.Drawing.Size(348, 499);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.GoogleAuth);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Google_Login";
@@ -59,11 +69,13 @@
             this.Load += new System.EventHandler(this.Google_Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GoogleAuth)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private Microsoft.Web.WebView2.WinForms.WebView2 GoogleAuth;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

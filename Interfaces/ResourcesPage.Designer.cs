@@ -133,6 +133,7 @@
             this.GoogleClassroomLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GoogleClassroomLogo.TabIndex = 13;
             this.GoogleClassroomLogo.TabStop = false;
+            this.GoogleClassroomLogo.Click += new System.EventHandler(this.GoogleClassroomLogo_Click);
             // 
             // GeoGebraLabel
             // 
@@ -155,6 +156,7 @@
             this.GeoGebraLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GeoGebraLogo.TabIndex = 21;
             this.GeoGebraLogo.TabStop = false;
+            this.GeoGebraLogo.Click += new System.EventHandler(this.GeoGebraLogo_Click);
             // 
             // PDFConverterLabel
             // 
@@ -177,6 +179,7 @@
             this.PDFConverterLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PDFConverterLogo.TabIndex = 19;
             this.PDFConverterLogo.TabStop = false;
+            this.PDFConverterLogo.Click += new System.EventHandler(this.PDFConverterLogo_Click);
             // 
             // LucidChartLabel
             // 
@@ -199,6 +202,7 @@
             this.LucidChartLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.LucidChartLogo.TabIndex = 17;
             this.LucidChartLogo.TabStop = false;
+            this.LucidChartLogo.Click += new System.EventHandler(this.LucidChartLogo_Click);
             // 
             // DropBoxLabel
             // 
@@ -243,6 +247,7 @@
             this.MicrosoftOfficeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MicrosoftOfficeLogo.TabIndex = 13;
             this.MicrosoftOfficeLogo.TabStop = false;
+            this.MicrosoftOfficeLogo.Click += new System.EventHandler(this.MicrosoftOfficeLogo_Click);
             // 
             // GoogleDocsLabel
             // 
@@ -286,6 +291,7 @@
             this.DropboxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.DropboxLogo.TabIndex = 19;
             this.DropboxLogo.TabStop = false;
+            this.DropboxLogo.Click += new System.EventHandler(this.DropboxLogo_Click);
             // 
             // MegaLabel
             // 
@@ -308,6 +314,7 @@
             this.MegaLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MegaLogo.TabIndex = 17;
             this.MegaLogo.TabStop = false;
+            this.MegaLogo.Click += new System.EventHandler(this.MegaLogo_Click);
             // 
             // MediafireLabel
             // 
@@ -330,6 +337,7 @@
             this.MediafireLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MediafireLogo.TabIndex = 15;
             this.MediafireLogo.TabStop = false;
+            this.MediafireLogo.Click += new System.EventHandler(this.MediafireLogo_Click);
             // 
             // OneDriveLabel
             // 
@@ -352,6 +360,7 @@
             this.OneDriveLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OneDriveLogo.TabIndex = 13;
             this.OneDriveLogo.TabStop = false;
+            this.OneDriveLogo.Click += new System.EventHandler(this.OneDriveLogo_Click);
             // 
             // GoogleDriveLabel
             // 
@@ -374,6 +383,7 @@
             this.GoogleDriveLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GoogleDriveLogo.TabIndex = 0;
             this.GoogleDriveLogo.TabStop = false;
+            this.GoogleDriveLogo.Click += new System.EventHandler(this.GoogleDriveLogo_Click);
             // 
             // GoogleMeetLabel
             // 
@@ -396,6 +406,7 @@
             this.GoogleMeetLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GoogleMeetLogo.TabIndex = 0;
             this.GoogleMeetLogo.TabStop = false;
+            this.GoogleMeetLogo.Click += new System.EventHandler(this.GoogleMeetLogo_Click);
             // 
             // OmniCalculatorLogo
             // 
@@ -407,6 +418,7 @@
             this.OmniCalculatorLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OmniCalculatorLogo.TabIndex = 15;
             this.OmniCalculatorLogo.TabStop = false;
+            this.OmniCalculatorLogo.Click += new System.EventHandler(this.OmniCalculatorLogo_Click);
             // 
             // GoogleClassroomLabel
             // 
@@ -468,6 +480,7 @@
             this.ZippyshareLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ZippyshareLogo.TabIndex = 17;
             this.ZippyshareLogo.TabStop = false;
+            this.ZippyshareLogo.Click += new System.EventHandler(this.ZippyshareLogo_Click);
             // 
             // StreamableLabel
             // 
@@ -490,6 +503,7 @@
             this.StreamableLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.StreamableLogo.TabIndex = 15;
             this.StreamableLogo.TabStop = false;
+            this.StreamableLogo.Click += new System.EventHandler(this.StreamableLogo_Click);
             // 
             // PastebinLabel
             // 
@@ -512,6 +526,7 @@
             this.PastebinLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PastebinLogo.TabIndex = 13;
             this.PastebinLogo.TabStop = false;
+            this.PastebinLogo.Click += new System.EventHandler(this.PastebinLogo_Click);
             // 
             // ImgurLabel
             // 
@@ -534,6 +549,7 @@
             this.ImgurLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ImgurLogo.TabIndex = 0;
             this.ImgurLogo.TabStop = false;
+            this.ImgurLogo.Click += new System.EventHandler(this.ImgurLogo_Click);
             // 
             // GoolgleDocsLogo
             // 
@@ -545,6 +561,7 @@
             this.GoolgleDocsLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GoolgleDocsLogo.TabIndex = 0;
             this.GoolgleDocsLogo.TabStop = false;
+            this.GoolgleDocsLogo.Click += new System.EventHandler(this.GoolgleDocsLogo_Click);
             // 
             // MailGroup
             // 
@@ -582,6 +599,7 @@
             this.OutlookLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.OutlookLogo.TabIndex = 13;
             this.OutlookLogo.TabStop = false;
+            this.OutlookLogo.Click += new System.EventHandler(this.OutlookLogo_Click);
             // 
             // GmailLabel
             // 
@@ -669,6 +687,7 @@
             this.ScribdLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ScribdLogo.TabIndex = 19;
             this.ScribdLogo.TabStop = false;
+            this.ScribdLogo.Click += new System.EventHandler(this.ScribdLogo_Click);
             // 
             // SlideShareLabel
             // 
@@ -691,6 +710,7 @@
             this.SlideShareLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.SlideShareLogo.TabIndex = 17;
             this.SlideShareLogo.TabStop = false;
+            this.SlideShareLogo.Click += new System.EventHandler(this.SlideShareLogo_Click);
             // 
             // ResearchGateLabel
             // 
@@ -713,6 +733,7 @@
             this.ResearchGateLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ResearchGateLogo.TabIndex = 15;
             this.ResearchGateLogo.TabStop = false;
+            this.ResearchGateLogo.Click += new System.EventHandler(this.ResearchGateLogo_Click);
             // 
             // GoogleScholarLabel
             // 
@@ -735,6 +756,7 @@
             this.GoogleScholarLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.GoogleScholarLogo.TabIndex = 13;
             this.GoogleScholarLogo.TabStop = false;
+            this.GoogleScholarLogo.Click += new System.EventHandler(this.GoogleScholarLogo_Click);
             // 
             // MeriamLabel
             // 
@@ -757,6 +779,7 @@
             this.MerriamLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MerriamLogo.TabIndex = 0;
             this.MerriamLogo.TabStop = false;
+            this.MerriamLogo.Click += new System.EventHandler(this.MerriamLogo_Click);
             // 
             // ZoomLogo
             // 
@@ -768,6 +791,7 @@
             this.ZoomLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ZoomLogo.TabIndex = 15;
             this.ZoomLogo.TabStop = false;
+            this.ZoomLogo.Click += new System.EventHandler(this.ZoomLogo_Click);
             // 
             // GroupBox1
             // 
@@ -832,6 +856,7 @@
             this.MicrosoftTeamsLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MicrosoftTeamsLogo.TabIndex = 17;
             this.MicrosoftTeamsLogo.TabStop = false;
+            this.MicrosoftTeamsLogo.Click += new System.EventHandler(this.MicrosoftTeamsLogo_Click);
             // 
             // ZoomLabel
             // 

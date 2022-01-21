@@ -139,5 +139,9 @@ namespace Project_Excelsior.Interfaces
             e.Handled = true;
         }
 
+        private void WebView2_NavigationCompleted(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationCompletedEventArgs e)
+        {
+            PageNameToolStripMenuItem.Text = WebView2.CoreWebView2.DocumentTitle;
+        }
     }
 }

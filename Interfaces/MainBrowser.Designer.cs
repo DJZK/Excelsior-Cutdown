@@ -62,7 +62,7 @@
             // DonateToolStripMenuItem
             // 
             this.DonateToolStripMenuItem.Name = "DonateToolStripMenuItem";
-            this.DonateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.DonateToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.DonateToolStripMenuItem.Text = "Contribute";
             this.DonateToolStripMenuItem.Click += new System.EventHandler(this.DonateToolStripMenuItem_Click);
             // 
@@ -78,7 +78,7 @@
             // AboutUsToolStripMenuItem
             // 
             this.AboutUsToolStripMenuItem.Name = "AboutUsToolStripMenuItem";
-            this.AboutUsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AboutUsToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.AboutUsToolStripMenuItem.Text = "About Us";
             this.AboutUsToolStripMenuItem.Click += new System.EventHandler(this.AboutUsToolStripMenuItem_Click);
             // 
@@ -191,6 +191,7 @@
             this.WebView2.TabIndex = 2;
             this.WebView2.ZoomFactor = 1D;
             this.WebView2.CoreWebView2InitializationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs>(this.WebView2_CoreWebView2InitializationCompleted);
+            this.WebView2.NavigationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2NavigationCompletedEventArgs>(this.WebView2_NavigationCompleted);
             // 
             // MainBrowser
             // 

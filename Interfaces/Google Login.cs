@@ -31,7 +31,9 @@ namespace Project_Excelsior.Interfaces
             messenger.FeatureExperimental();
 
             // Form load parameters
+            Icon = Properties.Resources.SVCC_Icon_Fixed;
             Uri uri = new Uri("https://accounts.google.com");
+            textBox1.Text = uri.ToString();
             GoogleAuth.Source = uri;
 
 
@@ -44,7 +46,7 @@ namespace Project_Excelsior.Interfaces
             GoogleAuth.CoreWebView2.Settings.AreDefaultScriptDialogsEnabled = false;
             GoogleAuth.CoreWebView2.Settings.IsStatusBarEnabled = false;
             GoogleAuth.CoreWebView2.Settings.IsWebMessageEnabled = false;
-            GoogleAuth.CoreWebView2.Settings.UserAgent = "Chrome";
+            GoogleAuth.CoreWebView2.Settings.UserAgent = "Opera";
 
             GoogleAuth.CoreWebView2.NewWindowRequested += CoreWebView2_NewWindowRequested;
         }
@@ -56,6 +58,8 @@ namespace Project_Excelsior.Interfaces
 
         private void GoogleAuth_ContentLoading(object sender, CoreWebView2ContentLoadingEventArgs e)
         {
+
+            textBox1.Text = GoogleAuth.Source.ToString();
             if (e.IsErrorPage)
             {
                 Launcher.LaunchWindow(forwardTitle, forwardLink);
