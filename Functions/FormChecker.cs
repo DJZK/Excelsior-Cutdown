@@ -9,14 +9,29 @@ namespace Project_Excelsior.Functions
 {
     internal class FormChecker
     {
+
+        public static Boolean closeAll = false;
         public static void CheckForms()
         {
 
             // Closes the application if there's no open forms
-            if(Application.OpenForms.Count == 0)
+
+
+            FormCollection fc = Application.OpenForms;
+            foreach (Form form in fc)
+            {
+                if (Application.OpenForms.Count == 1 && form.Name == "LandingPage")
+                {
+                    form.Show();
+                }
+            }
+            if (Application.OpenForms.Count == 0)
             {
                 Application.Exit();
             }
+
+           
+
         }
     }
 }

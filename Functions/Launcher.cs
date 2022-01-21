@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Project_Excelsior.Interfaces;
+using System.Windows.Forms;
 
 namespace Project_Excelsior.Functions
 {
@@ -28,15 +29,15 @@ namespace Project_Excelsior.Functions
 
             if (window.Equals("land"))
             {
-                LandingPage land = new LandingPage();
-                land.Show();
-                return;
-            }
+                FormCollection fc = Application.OpenForms;
 
-            if (window.Equals("mainBrowser"))
-            {
-                MainBrowser mainBrowser = new MainBrowser();
-                mainBrowser.Show();
+                foreach(Form form in fc)
+                {
+                    if(form.Name == "LandingPage")
+                    {
+                        form.Show();
+                    }
+                }
                 return;
             }
 

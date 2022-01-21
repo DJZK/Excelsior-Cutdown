@@ -47,7 +47,7 @@ namespace Project_Excelsior.Interfaces
         {
             Uri uri = new Uri(Properties.Resources.svccSystemURL);
             Launcher.LaunchWindow("SVCC System", uri);
-            this.Close();
+            this.Hide();
         }
 
         private void contributeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,12 +59,13 @@ namespace Project_Excelsior.Interfaces
         {
             Uri uri = new Uri(Properties.Resources.neoLMSURL);
             Launcher.LaunchWindow("SVCC NeoLMS", uri);
-            this.Close();
+            this.Hide();
         }
 
         private void ResourcesButton_Click(object sender, EventArgs e)
         {
             Launcher.LaunchWindow("resourcesPage");
+            this.Close();
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
@@ -72,7 +73,9 @@ namespace Project_Excelsior.Interfaces
             MessageFunctions messenger = new MessageFunctions();
             if (messenger.ExitAllConfirm())
             {
+                FormChecker.closeAll = true;
                 Application.Exit();
+               
             }
         }
 
@@ -81,8 +84,20 @@ namespace Project_Excelsior.Interfaces
             MessageFunctions messenger = new MessageFunctions();
             if (messenger.ExitAllConfirm())
             {
+                FormChecker.closeAll = true;
                 Application.Exit();
             }
+        }
+
+        private void LandingPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+            if (!(FormChecker.closeAll || Application.OpenForms.Count == 1))
+            {
+                e.Cancel = true;
+                Hide();
+            }
+           
         }
     }
 }

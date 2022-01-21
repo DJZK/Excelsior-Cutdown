@@ -86,7 +86,10 @@ namespace Project_Excelsior.Interfaces
 
         private void MainBrowser_FormClosed(object sender, FormClosedEventArgs e)
         {
+           
+
             FormChecker.CheckForms();
+
         }
 
         private void SVCCSystemToolStripMenuItem_Click(object sender, EventArgs e)
@@ -102,6 +105,8 @@ namespace Project_Excelsior.Interfaces
 
         private void MainMenuToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+            
             Launcher.LaunchWindow("land");
         }
 
@@ -142,24 +147,18 @@ namespace Project_Excelsior.Interfaces
 
         private void MainBrowser_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (bypass)
+            if (!(bypass || FormChecker.closeAll))
             {
-                Dispose();
-            }
-            else
-            {
-                if (messenger.ExitStatementConfirm())
-                {
-                    bypass = true;
-                    Dispose();
-                }
-                else
+                if (!messenger.ExitStatementConfirm())
                 {
                     e.Cancel = true;
-
                 }
+
+      
+            
+            
             }
-          
+  
         }
     }
 }
