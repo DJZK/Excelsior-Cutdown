@@ -876,7 +876,7 @@
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 15);
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(667, 398);
+            this.ClientSize = new System.Drawing.Size(646, 363);
             this.Controls.Add(this.CloudDriveGroup);
             this.Controls.Add(this.Panel2);
             this.Controls.Add(this.FileSharingGroup);
@@ -886,9 +886,10 @@
             this.Controls.Add(this.SearchGroup);
             this.Controls.Add(this.GroupBox1);
             this.Controls.Add(this.GroupBox2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(662, 1597);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(662, 402);
             this.Name = "ResourcesPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tools and Resource";

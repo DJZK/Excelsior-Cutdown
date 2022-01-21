@@ -66,6 +66,7 @@
             this.Name = "Google_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Google Login";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Google_Login_FormClosed);
             this.Load += new System.EventHandler(this.Google_Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.GoogleAuth)).EndInit();
             this.ResumeLayout(false);

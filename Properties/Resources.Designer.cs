@@ -61,7 +61,7 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to release v2.2.12.3.
+        ///   Looks up a localized string similar to release v2.2.13.4.
         /// </summary>
         internal static string appVersion {
             get {
@@ -410,7 +410,7 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://http://stvincentcollege.edu.ph/.
+        ///   Looks up a localized string similar to http://stvincentcollege.edu.ph/.
         /// </summary>
         internal static string svccHomePage {
             get {

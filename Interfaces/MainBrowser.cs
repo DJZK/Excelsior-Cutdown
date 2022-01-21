@@ -65,6 +65,7 @@ namespace Project_Excelsior.Interfaces
             if (messenger.BackHome())
             {
                 WebView2.Enabled = false;
+                WebView2.Source = new Uri("https://google.com");
                 WebView2.Source = source;
                 WebView2.Enabled = true;
             }

@@ -71,5 +71,10 @@ namespace Project_Excelsior.Interfaces
                 this.Close();
             }
         }
+
+        private void Google_Login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
     }
 }

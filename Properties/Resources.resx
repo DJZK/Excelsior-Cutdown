@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="appVersion" xml:space="preserve">
-    <value>release v2.2.12.3</value>
+    <value>release v2.2.13.4</value>
   </data>
   <data name="carlEmail" xml:space="preserve">
     <value>carljordee11@gmail.com</value>
@@ -23723,7 +23723,7 @@
     <value>https://www.facebook.com/svcccabuyaoofficial/</value>
   </data>
   <data name="svccHomePage" xml:space="preserve">
-    <value>http://http://stvincentcollege.edu.ph/</value>
+    <value>http://stvincentcollege.edu.ph/</value>
   </data>
   <data name="svccSystemURL" xml:space="preserve">
     <value>http://svccsystem.com/</value>
