@@ -86,6 +86,12 @@
     <Compile Include="Functions\FormChecker.cs" />
     <Compile Include="Functions\Launcher.cs" />
     <Compile Include="Functions\MessageFunctions.cs" />
+    <Compile Include="Interfaces\Browser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\Credits.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CompanyLogo.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Browser.resx">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Credits.resx">
       <DependentUpon>Credits.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +189,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Browser.png" />
+    <None Include="Resources\NeoLMS.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\Reload.png" />
+    <None Include="Resources\YahooMail.jpg" />
+    <None Include="Resources\iCloudMail.png" />
     <Content Include="SVCC Icon Fixed.ico" />
   </ItemGroup>
   <ItemGroup>

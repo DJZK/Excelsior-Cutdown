@@ -99,5 +99,15 @@ namespace Project_Excelsior.Interfaces
             }
            
         }
+
+        private void AboutUsButton_Click(object sender, EventArgs e)
+        {
+            Launcher.LaunchWindow("credits");
+        }
+
+        private void ContributeButton_Click(object sender, EventArgs e)
+        {
+            Launcher.LaunchWindow("donate");
+        }
     }
 }

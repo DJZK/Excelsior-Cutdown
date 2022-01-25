@@ -32,20 +32,17 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contributeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.ResourcesButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.LmsButton = new System.Windows.Forms.Button();
-            this.PortalButton = new System.Windows.Forms.Button();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.Label1 = new System.Windows.Forms.Label();
             this.TimeLabel = new System.Windows.Forms.Label();
             this.VersionLabel = new System.Windows.Forms.Label();
             this.TitleLabel = new System.Windows.Forms.Label();
             this.SvccLogo = new System.Windows.Forms.PictureBox();
+            this.ResourcesButton = new System.Windows.Forms.Button();
+            this.AboutUsButton = new System.Windows.Forms.Button();
+            this.ContributeButton = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SvccLogo)).BeginInit();
@@ -54,8 +51,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(681, 24);
@@ -73,76 +69,23 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
-            // helpToolStripMenuItem
-            // 
-            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.contributeToolStripMenuItem,
-            this.aboutUsToolStripMenuItem});
-            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // contributeToolStripMenuItem
-            // 
-            this.contributeToolStripMenuItem.Name = "contributeToolStripMenuItem";
-            this.contributeToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.contributeToolStripMenuItem.Text = "Contribute";
-            this.contributeToolStripMenuItem.Click += new System.EventHandler(this.contributeToolStripMenuItem_Click);
-            // 
-            // aboutUsToolStripMenuItem
-            // 
-            this.aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
-            this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.aboutUsToolStripMenuItem.Text = "About Us";
-            this.aboutUsToolStripMenuItem.Click += new System.EventHandler(this.aboutUsToolStripMenuItem_Click);
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // ResourcesButton
-            // 
-            this.ResourcesButton.Location = new System.Drawing.Point(325, 219);
-            this.ResourcesButton.Name = "ResourcesButton";
-            this.ResourcesButton.Size = new System.Drawing.Size(130, 30);
-            this.ResourcesButton.TabIndex = 15;
-            this.ResourcesButton.Text = "Launch Resources";
-            this.ResourcesButton.UseVisualStyleBackColor = true;
-            this.ResourcesButton.Click += new System.EventHandler(this.ResourcesButton_Click);
-            // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(489, 219);
+            this.ExitButton.Location = new System.Drawing.Point(488, 219);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(130, 30);
+            this.ExitButton.Size = new System.Drawing.Size(101, 30);
             this.ExitButton.TabIndex = 14;
             this.ExitButton.Text = "Quit";
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
-            // 
-            // LmsButton
-            // 
-            this.LmsButton.Location = new System.Drawing.Point(489, 180);
-            this.LmsButton.Name = "LmsButton";
-            this.LmsButton.Size = new System.Drawing.Size(130, 30);
-            this.LmsButton.TabIndex = 13;
-            this.LmsButton.Text = "Launch SVCC LMS";
-            this.LmsButton.UseVisualStyleBackColor = true;
-            this.LmsButton.Click += new System.EventHandler(this.LmsButton_Click);
-            // 
-            // PortalButton
-            // 
-            this.PortalButton.Location = new System.Drawing.Point(325, 180);
-            this.PortalButton.Name = "PortalButton";
-            this.PortalButton.Size = new System.Drawing.Size(130, 30);
-            this.PortalButton.TabIndex = 12;
-            this.PortalButton.Text = "Launch SVCC Portal";
-            this.PortalButton.UseVisualStyleBackColor = true;
-            this.PortalButton.Click += new System.EventHandler(this.PortalButton_Click);
             // 
             // Panel1
             // 
@@ -213,15 +156,45 @@
             this.SvccLogo.TabIndex = 9;
             this.SvccLogo.TabStop = false;
             // 
+            // ResourcesButton
+            // 
+            this.ResourcesButton.Location = new System.Drawing.Point(359, 172);
+            this.ResourcesButton.Name = "ResourcesButton";
+            this.ResourcesButton.Size = new System.Drawing.Size(101, 30);
+            this.ResourcesButton.TabIndex = 15;
+            this.ResourcesButton.Text = "Get Started!";
+            this.ResourcesButton.UseVisualStyleBackColor = true;
+            this.ResourcesButton.Click += new System.EventHandler(this.ResourcesButton_Click);
+            // 
+            // AboutUsButton
+            // 
+            this.AboutUsButton.Location = new System.Drawing.Point(488, 172);
+            this.AboutUsButton.Name = "AboutUsButton";
+            this.AboutUsButton.Size = new System.Drawing.Size(101, 30);
+            this.AboutUsButton.TabIndex = 16;
+            this.AboutUsButton.Text = "About Us";
+            this.AboutUsButton.UseVisualStyleBackColor = true;
+            this.AboutUsButton.Click += new System.EventHandler(this.AboutUsButton_Click);
+            // 
+            // ContributeButton
+            // 
+            this.ContributeButton.Location = new System.Drawing.Point(359, 219);
+            this.ContributeButton.Name = "ContributeButton";
+            this.ContributeButton.Size = new System.Drawing.Size(101, 30);
+            this.ContributeButton.TabIndex = 17;
+            this.ContributeButton.Text = "Contribute";
+            this.ContributeButton.UseVisualStyleBackColor = true;
+            this.ContributeButton.Click += new System.EventHandler(this.ContributeButton_Click);
+            // 
             // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 373);
+            this.Controls.Add(this.ContributeButton);
+            this.Controls.Add(this.AboutUsButton);
             this.Controls.Add(this.ResourcesButton);
             this.Controls.Add(this.ExitButton);
-            this.Controls.Add(this.LmsButton);
-            this.Controls.Add(this.PortalButton);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.SvccLogo);
@@ -249,10 +222,7 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Timer timer1;
-        internal System.Windows.Forms.Button ResourcesButton;
         internal System.Windows.Forms.Button ExitButton;
-        internal System.Windows.Forms.Button LmsButton;
-        internal System.Windows.Forms.Button PortalButton;
         internal System.Windows.Forms.Panel Panel1;
         internal System.Windows.Forms.Label Label1;
         internal System.Windows.Forms.Label TimeLabel;
@@ -261,8 +231,8 @@
         internal System.Windows.Forms.PictureBox SvccLogo;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem contributeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
+        internal System.Windows.Forms.Button ResourcesButton;
+        internal System.Windows.Forms.Button AboutUsButton;
+        internal System.Windows.Forms.Button ContributeButton;
     }
 }

@@ -61,11 +61,31 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to release v2.2.13.4.
+        ///   Looks up a localized string similar to release v3.0.17.1.
         /// </summary>
         internal static string appVersion {
             get {
                 return ResourceManager.GetString("appVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Back {
+            get {
+                object obj = ResourceManager.GetObject("Back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Browser {
+            get {
+                object obj = ResourceManager.GetObject("Browser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -191,11 +211,30 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home {
+            get {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://outlook.live.com/.
         /// </summary>
         internal static string hotmailURL {
             get {
                 return ResourceManager.GetString("hotmailURL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://www.icloud.com/mail.
+        /// </summary>
+        internal static string icloudMailURL {
+            get {
+                return ResourceManager.GetString("icloudMailURL", resourceCulture);
             }
         }
         
@@ -336,6 +375,16 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Reload {
+            get {
+                object obj = ResourceManager.GetObject("Reload", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://www.researchgate.net/.
         /// </summary>
         internal static string researchGateURL {
@@ -424,6 +473,15 @@ namespace Project_Excelsior.Properties {
         internal static string svccSystemURL {
             get {
                 return ResourceManager.GetString("svccSystemURL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://mail.yahoo/com.
+        /// </summary>
+        internal static string yahooMailURL {
+            get {
+                return ResourceManager.GetString("yahooMailURL", resourceCulture);
             }
         }
         
