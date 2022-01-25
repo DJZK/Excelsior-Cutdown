@@ -61,7 +61,7 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to release v3.0.18.2.
+        ///   Looks up a localized string similar to release v3.0.19.3.
         /// </summary>
         internal static string appVersion {
             get {
