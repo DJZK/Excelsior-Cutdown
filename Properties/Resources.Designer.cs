@@ -61,7 +61,7 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to release v3.0.19.3.
+        ///   Looks up a localized string similar to release v3.0.20.4.
         /// </summary>
         internal static string appVersion {
             get {
@@ -477,7 +477,7 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to https://mail.yahoo/com.
+        ///   Looks up a localized string similar to https://mail.yahoo.com.
         /// </summary>
         internal static string yahooMailURL {
             get {

@@ -88,28 +88,28 @@
             // HomeToolStripMenuItem
             // 
             this.HomeToolStripMenuItem.Name = "HomeToolStripMenuItem";
-            this.HomeToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.HomeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.HomeToolStripMenuItem.Text = "Home";
             this.HomeToolStripMenuItem.Click += new System.EventHandler(this.HomeToolStripMenuItem_Click);
             // 
             // BackToolStripMenuItem
             // 
             this.BackToolStripMenuItem.Name = "BackToolStripMenuItem";
-            this.BackToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.BackToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.BackToolStripMenuItem.Text = "Back";
             this.BackToolStripMenuItem.Click += new System.EventHandler(this.BackToolStripMenuItem_Click);
             // 
             // ForwardToolStripMenuItem
             // 
             this.ForwardToolStripMenuItem.Name = "ForwardToolStripMenuItem";
-            this.ForwardToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.ForwardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ForwardToolStripMenuItem.Text = "Forward";
             this.ForwardToolStripMenuItem.Click += new System.EventHandler(this.ForwardToolStripMenuItem_Click);
             // 
             // NavigateToolStripMenuItem
             // 
             this.NavigateToolStripMenuItem.Name = "NavigateToolStripMenuItem";
-            this.NavigateToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.NavigateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.NavigateToolStripMenuItem.Text = "Refresh";
             this.NavigateToolStripMenuItem.Click += new System.EventHandler(this.NavigateToolStripMenuItem_Click);
             // 
@@ -128,8 +128,8 @@
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.ExitToolStripMenuItem.Text = "Exit";
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ExitToolStripMenuItem.Text = "Exit Application";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // MenuStrip1

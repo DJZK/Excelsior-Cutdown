@@ -42,7 +42,11 @@ namespace Project_Excelsior.Interfaces
 
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (messenger.ExitAllConfirm())
+            {
+                FormChecker.closeAll = true;
+                Application.Exit();
+            }
         }
 
         private void NavigateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -155,9 +159,6 @@ namespace Project_Excelsior.Interfaces
                     e.Cancel = true;
                 }
 
-      
-            
-            
             }
   
         }
