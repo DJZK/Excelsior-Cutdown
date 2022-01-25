@@ -175,5 +175,35 @@ namespace Project_Excelsior.Interfaces
         {
             LoadBrowser("Zippyshare", Properties.Resources.zippyshareURL);
         }
+
+        private void SvccLogo_Click(object sender, EventArgs e)
+        {
+          
+                LoadBrowser("SVCC System", Properties.Resources.svccSystemURL);
+           
+        }
+
+        private void LMSLogo_Click(object sender, EventArgs e)
+        {
+         
+                LoadBrowser("SVCC NeoLMS", Properties.Resources.neoLMSURL);
+          
+        }
+
+        private void BrowserLogo_Click(object sender, EventArgs e)
+        {
+            Launcher.LaunchWindow("browser");
+            this.Close();
+        }
+
+        private void YahooMailLogo_Click(object sender, EventArgs e)
+        {
+            LoadBrowser("Yahoo Mail", Properties.Resources.yahooMailURL);
+        }
+
+        private void AppleMailLogo_Click(object sender, EventArgs e)
+        {
+            LoadBrowser("iCloud Mail", Properties.Resources.icloudMailURL);
+        }
     }
 }

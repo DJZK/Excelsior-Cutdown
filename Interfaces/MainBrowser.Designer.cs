@@ -32,10 +32,6 @@
             this.DonateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.HelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.MainMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolsAndResourcesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.SVCCSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.SVCCNeoLMSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.LaunchToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.HomeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,44 +78,12 @@
             this.AboutUsToolStripMenuItem.Text = "About Us";
             this.AboutUsToolStripMenuItem.Click += new System.EventHandler(this.AboutUsToolStripMenuItem_Click);
             // 
-            // MainMenuToolStripMenuItem
-            // 
-            this.MainMenuToolStripMenuItem.Name = "MainMenuToolStripMenuItem";
-            this.MainMenuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.MainMenuToolStripMenuItem.Text = "Main Menu";
-            this.MainMenuToolStripMenuItem.Click += new System.EventHandler(this.MainMenuToolStripMenuItem_Click);
-            // 
-            // ToolsAndResourcesToolStripMenuItem
-            // 
-            this.ToolsAndResourcesToolStripMenuItem.Name = "ToolsAndResourcesToolStripMenuItem";
-            this.ToolsAndResourcesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ToolsAndResourcesToolStripMenuItem.Text = "Tools and Resources";
-            this.ToolsAndResourcesToolStripMenuItem.Click += new System.EventHandler(this.ToolsAndResourcesToolStripMenuItem_Click);
-            // 
-            // SVCCSystemToolStripMenuItem
-            // 
-            this.SVCCSystemToolStripMenuItem.Name = "SVCCSystemToolStripMenuItem";
-            this.SVCCSystemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.SVCCSystemToolStripMenuItem.Text = "SVCC System";
-            this.SVCCSystemToolStripMenuItem.Click += new System.EventHandler(this.SVCCSystemToolStripMenuItem_Click);
-            // 
-            // SVCCNeoLMSToolStripMenuItem
-            // 
-            this.SVCCNeoLMSToolStripMenuItem.Name = "SVCCNeoLMSToolStripMenuItem";
-            this.SVCCNeoLMSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.SVCCNeoLMSToolStripMenuItem.Text = "SVCC NeoLMS";
-            this.SVCCNeoLMSToolStripMenuItem.Click += new System.EventHandler(this.SVCCNeoLMSToolStripMenuItem_Click);
-            // 
             // LaunchToolStripMenuItem1
             // 
-            this.LaunchToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.SVCCNeoLMSToolStripMenuItem,
-            this.SVCCSystemToolStripMenuItem,
-            this.ToolsAndResourcesToolStripMenuItem,
-            this.MainMenuToolStripMenuItem});
             this.LaunchToolStripMenuItem1.Name = "LaunchToolStripMenuItem1";
             this.LaunchToolStripMenuItem1.Size = new System.Drawing.Size(58, 20);
             this.LaunchToolStripMenuItem1.Text = "Launch";
+            this.LaunchToolStripMenuItem1.Click += new System.EventHandler(this.LaunchToolStripMenuItem1_Click);
             // 
             // HomeToolStripMenuItem
             // 
@@ -221,10 +185,6 @@
         internal System.Windows.Forms.ToolStripMenuItem DonateToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem HelpToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem AboutUsToolStripMenuItem;
-        internal System.Windows.Forms.ToolStripMenuItem MainMenuToolStripMenuItem;
-        internal System.Windows.Forms.ToolStripMenuItem ToolsAndResourcesToolStripMenuItem;
-        internal System.Windows.Forms.ToolStripMenuItem SVCCSystemToolStripMenuItem;
-        internal System.Windows.Forms.ToolStripMenuItem SVCCNeoLMSToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem LaunchToolStripMenuItem1;
         internal System.Windows.Forms.ToolStripMenuItem HomeToolStripMenuItem;
         internal System.Windows.Forms.ToolStripMenuItem BackToolStripMenuItem;

@@ -161,5 +161,10 @@ namespace Project_Excelsior.Interfaces
             }
   
         }
+
+        private void LaunchToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Launcher.LaunchWindow("resourcesPage");
+        }
     }
 }

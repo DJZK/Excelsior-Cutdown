@@ -54,6 +54,12 @@ namespace Project_Excelsior.Functions
                 splash.Show();
                 return;
             }
+            if (window.Equals("browser"))
+            {
+                Browser browser = new Browser();
+                browser.Show();
+                return;
+            }
         }
 
         public static void LaunchWindow(string title, Uri source)

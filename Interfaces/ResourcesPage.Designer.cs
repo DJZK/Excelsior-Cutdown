@@ -28,17 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GoogleClassroomLogo = new System.Windows.Forms.PictureBox();
             this.GeoGebraLabel = new System.Windows.Forms.Label();
-            this.GeoGebraLogo = new System.Windows.Forms.PictureBox();
             this.PDFConverterLabel = new System.Windows.Forms.Label();
-            this.PDFConverterLogo = new System.Windows.Forms.PictureBox();
             this.LucidChartLabel = new System.Windows.Forms.Label();
-            this.LucidChartLogo = new System.Windows.Forms.PictureBox();
             this.DropBoxLabel = new System.Windows.Forms.Label();
             this.OmniCalculatorLabel = new System.Windows.Forms.Label();
             this.MicrosoftOfficeLabel = new System.Windows.Forms.Label();
-            this.MicrosoftOfficeLogo = new System.Windows.Forms.PictureBox();
             this.GoogleDocsLabel = new System.Windows.Forms.Label();
             this.CloudDriveGroup = new System.Windows.Forms.GroupBox();
             this.DropboxLogo = new System.Windows.Forms.PictureBox();
@@ -51,8 +46,6 @@
             this.GoogleDriveLabel = new System.Windows.Forms.Label();
             this.GoogleDriveLogo = new System.Windows.Forms.PictureBox();
             this.GoogleMeetLabel = new System.Windows.Forms.Label();
-            this.GoogleMeetLogo = new System.Windows.Forms.PictureBox();
-            this.OmniCalculatorLogo = new System.Windows.Forms.PictureBox();
             this.GoogleClassroomLabel = new System.Windows.Forms.Label();
             this.Panel2 = new System.Windows.Forms.Panel();
             this.FileSharingGroup = new System.Windows.Forms.GroupBox();
@@ -64,8 +57,11 @@
             this.PastebinLogo = new System.Windows.Forms.PictureBox();
             this.ImgurLabel = new System.Windows.Forms.Label();
             this.ImgurLogo = new System.Windows.Forms.PictureBox();
-            this.GoolgleDocsLogo = new System.Windows.Forms.PictureBox();
             this.MailGroup = new System.Windows.Forms.GroupBox();
+            this.iCloudLabel = new System.Windows.Forms.Label();
+            this.AppleMailLogo = new System.Windows.Forms.PictureBox();
+            this.YahooLabel = new System.Windows.Forms.Label();
+            this.YahooMailLogo = new System.Windows.Forms.PictureBox();
             this.OutlookLabel = new System.Windows.Forms.Label();
             this.OutlookLogo = new System.Windows.Forms.PictureBox();
             this.GmailLabel = new System.Windows.Forms.Label();
@@ -83,32 +79,41 @@
             this.GoogleScholarLogo = new System.Windows.Forms.PictureBox();
             this.MeriamLabel = new System.Windows.Forms.Label();
             this.MerriamLogo = new System.Windows.Forms.PictureBox();
-            this.ZoomLogo = new System.Windows.Forms.PictureBox();
-            this.GroupBox1 = new System.Windows.Forms.GroupBox();
-            this.GroupBox2 = new System.Windows.Forms.GroupBox();
+            this.ToolsGroup = new System.Windows.Forms.GroupBox();
+            this.GeoGebraLogo = new System.Windows.Forms.PictureBox();
+            this.PDFConverterLogo = new System.Windows.Forms.PictureBox();
+            this.LucidChartLogo = new System.Windows.Forms.PictureBox();
+            this.OmniCalculatorLogo = new System.Windows.Forms.PictureBox();
+            this.MicrosoftOfficeLogo = new System.Windows.Forms.PictureBox();
+            this.GoolgleDocsLogo = new System.Windows.Forms.PictureBox();
+            this.ConferenceGroup = new System.Windows.Forms.GroupBox();
             this.MicrosoftTeamsLabel = new System.Windows.Forms.Label();
             this.MicrosoftTeamsLogo = new System.Windows.Forms.PictureBox();
             this.ZoomLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.GoogleClassroomLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GeoGebraLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PDFConverterLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LucidChartLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MicrosoftOfficeLogo)).BeginInit();
+            this.ZoomLogo = new System.Windows.Forms.PictureBox();
+            this.GoogleClassroomLogo = new System.Windows.Forms.PictureBox();
+            this.GoogleMeetLogo = new System.Windows.Forms.PictureBox();
+            this.systemGroup = new System.Windows.Forms.GroupBox();
+            this.BrowserLabel = new System.Windows.Forms.Label();
+            this.BrowserLogo = new System.Windows.Forms.PictureBox();
+            this.NeoLMSLabel = new System.Windows.Forms.Label();
+            this.LMSLogo = new System.Windows.Forms.PictureBox();
+            this.SVCCSystemlabel = new System.Windows.Forms.Label();
+            this.SvccLogo = new System.Windows.Forms.PictureBox();
             this.CloudDriveGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DropboxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MegaLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MediafireLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OneDriveLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleDriveLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GoogleMeetLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OmniCalculatorLogo)).BeginInit();
             this.FileSharingGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ZippyshareLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StreamableLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PastebinLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgurLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GoolgleDocsLogo)).BeginInit();
             this.MailGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AppleMailLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YahooMailLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OutlookLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GmailLogo)).BeginInit();
             this.SearchGroup.SuspendLayout();
@@ -117,23 +122,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.ResearchGateLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleScholarLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MerriamLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ZoomLogo)).BeginInit();
-            this.GroupBox1.SuspendLayout();
-            this.GroupBox2.SuspendLayout();
+            this.ToolsGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GeoGebraLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PDFConverterLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LucidChartLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OmniCalculatorLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MicrosoftOfficeLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoolgleDocsLogo)).BeginInit();
+            this.ConferenceGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MicrosoftTeamsLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ZoomLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoogleClassroomLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoogleMeetLogo)).BeginInit();
+            this.systemGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BrowserLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LMSLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SvccLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // GoogleClassroomLogo
-            // 
-            this.GoogleClassroomLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GoogleClassroomLogo.Image = global::Project_Excelsior.CompanyLogo.GoogleClassroom;
-            this.GoogleClassroomLogo.Location = new System.Drawing.Point(183, 37);
-            this.GoogleClassroomLogo.Name = "GoogleClassroomLogo";
-            this.GoogleClassroomLogo.Size = new System.Drawing.Size(85, 85);
-            this.GoogleClassroomLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GoogleClassroomLogo.TabIndex = 13;
-            this.GoogleClassroomLogo.TabStop = false;
-            this.GoogleClassroomLogo.Click += new System.EventHandler(this.GoogleClassroomLogo_Click);
             // 
             // GeoGebraLabel
             // 
@@ -146,18 +151,6 @@
             this.GeoGebraLabel.Text = "GeoGebra Calculator";
             this.GeoGebraLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // GeoGebraLogo
-            // 
-            this.GeoGebraLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GeoGebraLogo.Image = global::Project_Excelsior.CompanyLogo.GeoGebra;
-            this.GeoGebraLogo.Location = new System.Drawing.Point(183, 169);
-            this.GeoGebraLogo.Name = "GeoGebraLogo";
-            this.GeoGebraLogo.Size = new System.Drawing.Size(85, 85);
-            this.GeoGebraLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GeoGebraLogo.TabIndex = 21;
-            this.GeoGebraLogo.TabStop = false;
-            this.GeoGebraLogo.Click += new System.EventHandler(this.GeoGebraLogo_Click);
-            // 
             // PDFConverterLabel
             // 
             this.PDFConverterLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -169,18 +162,6 @@
             this.PDFConverterLabel.Text = "PDF Converter";
             this.PDFConverterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // PDFConverterLogo
-            // 
-            this.PDFConverterLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PDFConverterLogo.Image = global::Project_Excelsior.CompanyLogo.PDFLogo;
-            this.PDFConverterLogo.Location = new System.Drawing.Point(485, 37);
-            this.PDFConverterLogo.Name = "PDFConverterLogo";
-            this.PDFConverterLogo.Size = new System.Drawing.Size(85, 85);
-            this.PDFConverterLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PDFConverterLogo.TabIndex = 19;
-            this.PDFConverterLogo.TabStop = false;
-            this.PDFConverterLogo.Click += new System.EventHandler(this.PDFConverterLogo_Click);
-            // 
             // LucidChartLabel
             // 
             this.LucidChartLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -191,18 +172,6 @@
             this.LucidChartLabel.TabIndex = 18;
             this.LucidChartLabel.Text = "Lucid Chart";
             this.LucidChartLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LucidChartLogo
-            // 
-            this.LucidChartLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LucidChartLogo.Image = global::Project_Excelsior.CompanyLogo.LucidChart;
-            this.LucidChartLogo.Location = new System.Drawing.Point(334, 37);
-            this.LucidChartLogo.Name = "LucidChartLogo";
-            this.LucidChartLogo.Size = new System.Drawing.Size(85, 85);
-            this.LucidChartLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.LucidChartLogo.TabIndex = 17;
-            this.LucidChartLogo.TabStop = false;
-            this.LucidChartLogo.Click += new System.EventHandler(this.LucidChartLogo_Click);
             // 
             // DropBoxLabel
             // 
@@ -237,18 +206,6 @@
             this.MicrosoftOfficeLabel.Text = "Microsoft Office";
             this.MicrosoftOfficeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // MicrosoftOfficeLogo
-            // 
-            this.MicrosoftOfficeLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MicrosoftOfficeLogo.Image = global::Project_Excelsior.CompanyLogo.MicrosoftOffice;
-            this.MicrosoftOfficeLogo.Location = new System.Drawing.Point(183, 37);
-            this.MicrosoftOfficeLogo.Name = "MicrosoftOfficeLogo";
-            this.MicrosoftOfficeLogo.Size = new System.Drawing.Size(85, 85);
-            this.MicrosoftOfficeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MicrosoftOfficeLogo.TabIndex = 13;
-            this.MicrosoftOfficeLogo.TabStop = false;
-            this.MicrosoftOfficeLogo.Click += new System.EventHandler(this.MicrosoftOfficeLogo_Click);
-            // 
             // GoogleDocsLabel
             // 
             this.GoogleDocsLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -274,7 +231,7 @@
             this.CloudDriveGroup.Controls.Add(this.GoogleDriveLogo);
             this.CloudDriveGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CloudDriveGroup.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CloudDriveGroup.Location = new System.Drawing.Point(12, 1038);
+            this.CloudDriveGroup.Location = new System.Drawing.Point(11, 1197);
             this.CloudDriveGroup.Name = "CloudDriveGroup";
             this.CloudDriveGroup.Size = new System.Drawing.Size(605, 296);
             this.CloudDriveGroup.TabIndex = 32;
@@ -396,30 +353,6 @@
             this.GoogleMeetLabel.Text = "Google Meet";
             this.GoogleMeetLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // GoogleMeetLogo
-            // 
-            this.GoogleMeetLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GoogleMeetLogo.Image = global::Project_Excelsior.CompanyLogo.GoogleMeet;
-            this.GoogleMeetLogo.Location = new System.Drawing.Point(33, 37);
-            this.GoogleMeetLogo.Name = "GoogleMeetLogo";
-            this.GoogleMeetLogo.Size = new System.Drawing.Size(85, 85);
-            this.GoogleMeetLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GoogleMeetLogo.TabIndex = 0;
-            this.GoogleMeetLogo.TabStop = false;
-            this.GoogleMeetLogo.Click += new System.EventHandler(this.GoogleMeetLogo_Click);
-            // 
-            // OmniCalculatorLogo
-            // 
-            this.OmniCalculatorLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.OmniCalculatorLogo.Image = global::Project_Excelsior.CompanyLogo.OmniCalculator;
-            this.OmniCalculatorLogo.Location = new System.Drawing.Point(34, 169);
-            this.OmniCalculatorLogo.Name = "OmniCalculatorLogo";
-            this.OmniCalculatorLogo.Size = new System.Drawing.Size(85, 85);
-            this.OmniCalculatorLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.OmniCalculatorLogo.TabIndex = 15;
-            this.OmniCalculatorLogo.TabStop = false;
-            this.OmniCalculatorLogo.Click += new System.EventHandler(this.OmniCalculatorLogo_Click);
-            // 
             // GoogleClassroomLabel
             // 
             this.GoogleClassroomLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -435,7 +368,7 @@
             // 
             this.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(22)))), ((int)(((byte)(25)))));
             this.Panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(22)))), ((int)(((byte)(25)))));
-            this.Panel2.Location = new System.Drawing.Point(12, 1530);
+            this.Panel2.Location = new System.Drawing.Point(10, 1673);
             this.Panel2.Name = "Panel2";
             this.Panel2.Size = new System.Drawing.Size(606, 17);
             this.Panel2.TabIndex = 34;
@@ -452,7 +385,7 @@
             this.FileSharingGroup.Controls.Add(this.ImgurLogo);
             this.FileSharingGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FileSharingGroup.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FileSharingGroup.Location = new System.Drawing.Point(12, 1340);
+            this.FileSharingGroup.Location = new System.Drawing.Point(11, 1499);
             this.FileSharingGroup.Name = "FileSharingGroup";
             this.FileSharingGroup.Size = new System.Drawing.Size(605, 168);
             this.FileSharingGroup.TabIndex = 33;
@@ -551,32 +484,70 @@
             this.ImgurLogo.TabStop = false;
             this.ImgurLogo.Click += new System.EventHandler(this.ImgurLogo_Click);
             // 
-            // GoolgleDocsLogo
-            // 
-            this.GoolgleDocsLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GoolgleDocsLogo.Image = global::Project_Excelsior.CompanyLogo.GoogleDocs;
-            this.GoolgleDocsLogo.Location = new System.Drawing.Point(33, 37);
-            this.GoolgleDocsLogo.Name = "GoolgleDocsLogo";
-            this.GoolgleDocsLogo.Size = new System.Drawing.Size(85, 85);
-            this.GoolgleDocsLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GoolgleDocsLogo.TabIndex = 0;
-            this.GoolgleDocsLogo.TabStop = false;
-            this.GoolgleDocsLogo.Click += new System.EventHandler(this.GoolgleDocsLogo_Click);
-            // 
             // MailGroup
             // 
+            this.MailGroup.Controls.Add(this.iCloudLabel);
+            this.MailGroup.Controls.Add(this.AppleMailLogo);
+            this.MailGroup.Controls.Add(this.YahooLabel);
+            this.MailGroup.Controls.Add(this.YahooMailLogo);
             this.MailGroup.Controls.Add(this.OutlookLabel);
             this.MailGroup.Controls.Add(this.OutlookLogo);
             this.MailGroup.Controls.Add(this.GmailLabel);
             this.MailGroup.Controls.Add(this.GmailLogo);
             this.MailGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MailGroup.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MailGroup.Location = new System.Drawing.Point(12, 91);
+            this.MailGroup.Location = new System.Drawing.Point(11, 256);
             this.MailGroup.Name = "MailGroup";
             this.MailGroup.Size = new System.Drawing.Size(605, 168);
             this.MailGroup.TabIndex = 28;
             this.MailGroup.TabStop = false;
             this.MailGroup.Text = "Mail";
+            // 
+            // iCloudLabel
+            // 
+            this.iCloudLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.iCloudLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iCloudLabel.Location = new System.Drawing.Point(473, 125);
+            this.iCloudLabel.Name = "iCloudLabel";
+            this.iCloudLabel.Size = new System.Drawing.Size(109, 23);
+            this.iCloudLabel.TabIndex = 18;
+            this.iCloudLabel.Text = "iCloud Mail";
+            this.iCloudLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AppleMailLogo
+            // 
+            this.AppleMailLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AppleMailLogo.Image = global::Project_Excelsior.CompanyLogo.iCloudMail;
+            this.AppleMailLogo.Location = new System.Drawing.Point(485, 37);
+            this.AppleMailLogo.Name = "AppleMailLogo";
+            this.AppleMailLogo.Size = new System.Drawing.Size(85, 85);
+            this.AppleMailLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.AppleMailLogo.TabIndex = 17;
+            this.AppleMailLogo.TabStop = false;
+            this.AppleMailLogo.Click += new System.EventHandler(this.AppleMailLogo_Click);
+            // 
+            // YahooLabel
+            // 
+            this.YahooLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.YahooLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YahooLabel.Location = new System.Drawing.Point(322, 125);
+            this.YahooLabel.Name = "YahooLabel";
+            this.YahooLabel.Size = new System.Drawing.Size(109, 23);
+            this.YahooLabel.TabIndex = 16;
+            this.YahooLabel.Text = "Yahoo Mail";
+            this.YahooLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // YahooMailLogo
+            // 
+            this.YahooMailLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.YahooMailLogo.Image = global::Project_Excelsior.CompanyLogo.YahooMail;
+            this.YahooMailLogo.Location = new System.Drawing.Point(334, 37);
+            this.YahooMailLogo.Name = "YahooMailLogo";
+            this.YahooMailLogo.Size = new System.Drawing.Size(85, 85);
+            this.YahooMailLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.YahooMailLogo.TabIndex = 15;
+            this.YahooMailLogo.TabStop = false;
+            this.YahooMailLogo.Click += new System.EventHandler(this.YahooMailLogo_Click);
             // 
             // OutlookLabel
             // 
@@ -629,18 +600,18 @@
             this.TitleLabel.AutoSize = true;
             this.TitleLabel.BackColor = System.Drawing.Color.Transparent;
             this.TitleLabel.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleLabel.Location = new System.Drawing.Point(192, 46);
+            this.TitleLabel.Location = new System.Drawing.Point(278, 46);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(242, 33);
+            this.TitleLabel.Size = new System.Drawing.Size(91, 33);
             this.TitleLabel.TabIndex = 27;
-            this.TitleLabel.Text = "Tools and Resources";
+            this.TitleLabel.Text = "Launch";
             this.TitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Panel1
             // 
             this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(22)))), ((int)(((byte)(25)))));
             this.Panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(22)))), ((int)(((byte)(25)))));
-            this.Panel1.Location = new System.Drawing.Point(12, 12);
+            this.Panel1.Location = new System.Drawing.Point(10, 12);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(606, 31);
             this.Panel1.TabIndex = 26;
@@ -659,7 +630,7 @@
             this.SearchGroup.Controls.Add(this.MerriamLogo);
             this.SearchGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SearchGroup.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SearchGroup.Location = new System.Drawing.Point(12, 265);
+            this.SearchGroup.Location = new System.Drawing.Point(11, 430);
             this.SearchGroup.Name = "SearchGroup";
             this.SearchGroup.Size = new System.Drawing.Size(605, 285);
             this.SearchGroup.TabIndex = 29;
@@ -781,59 +752,119 @@
             this.MerriamLogo.TabStop = false;
             this.MerriamLogo.Click += new System.EventHandler(this.MerriamLogo_Click);
             // 
-            // ZoomLogo
+            // ToolsGroup
             // 
-            this.ZoomLogo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ZoomLogo.Image = global::Project_Excelsior.CompanyLogo.Zoom;
-            this.ZoomLogo.Location = new System.Drawing.Point(334, 37);
-            this.ZoomLogo.Name = "ZoomLogo";
-            this.ZoomLogo.Size = new System.Drawing.Size(85, 85);
-            this.ZoomLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ZoomLogo.TabIndex = 15;
-            this.ZoomLogo.TabStop = false;
-            this.ZoomLogo.Click += new System.EventHandler(this.ZoomLogo_Click);
+            this.ToolsGroup.Controls.Add(this.GeoGebraLabel);
+            this.ToolsGroup.Controls.Add(this.GeoGebraLogo);
+            this.ToolsGroup.Controls.Add(this.PDFConverterLabel);
+            this.ToolsGroup.Controls.Add(this.PDFConverterLogo);
+            this.ToolsGroup.Controls.Add(this.LucidChartLabel);
+            this.ToolsGroup.Controls.Add(this.LucidChartLogo);
+            this.ToolsGroup.Controls.Add(this.OmniCalculatorLabel);
+            this.ToolsGroup.Controls.Add(this.OmniCalculatorLogo);
+            this.ToolsGroup.Controls.Add(this.MicrosoftOfficeLabel);
+            this.ToolsGroup.Controls.Add(this.MicrosoftOfficeLogo);
+            this.ToolsGroup.Controls.Add(this.GoogleDocsLabel);
+            this.ToolsGroup.Controls.Add(this.GoolgleDocsLogo);
+            this.ToolsGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ToolsGroup.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ToolsGroup.Location = new System.Drawing.Point(11, 721);
+            this.ToolsGroup.Name = "ToolsGroup";
+            this.ToolsGroup.Size = new System.Drawing.Size(605, 296);
+            this.ToolsGroup.TabIndex = 30;
+            this.ToolsGroup.TabStop = false;
+            this.ToolsGroup.Text = "Tools";
             // 
-            // GroupBox1
+            // GeoGebraLogo
             // 
-            this.GroupBox1.Controls.Add(this.GeoGebraLabel);
-            this.GroupBox1.Controls.Add(this.GeoGebraLogo);
-            this.GroupBox1.Controls.Add(this.PDFConverterLabel);
-            this.GroupBox1.Controls.Add(this.PDFConverterLogo);
-            this.GroupBox1.Controls.Add(this.LucidChartLabel);
-            this.GroupBox1.Controls.Add(this.LucidChartLogo);
-            this.GroupBox1.Controls.Add(this.OmniCalculatorLabel);
-            this.GroupBox1.Controls.Add(this.OmniCalculatorLogo);
-            this.GroupBox1.Controls.Add(this.MicrosoftOfficeLabel);
-            this.GroupBox1.Controls.Add(this.MicrosoftOfficeLogo);
-            this.GroupBox1.Controls.Add(this.GoogleDocsLabel);
-            this.GroupBox1.Controls.Add(this.GoolgleDocsLogo);
-            this.GroupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GroupBox1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupBox1.Location = new System.Drawing.Point(12, 556);
-            this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Size = new System.Drawing.Size(605, 296);
-            this.GroupBox1.TabIndex = 30;
-            this.GroupBox1.TabStop = false;
-            this.GroupBox1.Text = "Tools";
+            this.GeoGebraLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GeoGebraLogo.Image = global::Project_Excelsior.CompanyLogo.GeoGebra;
+            this.GeoGebraLogo.Location = new System.Drawing.Point(183, 169);
+            this.GeoGebraLogo.Name = "GeoGebraLogo";
+            this.GeoGebraLogo.Size = new System.Drawing.Size(85, 85);
+            this.GeoGebraLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GeoGebraLogo.TabIndex = 21;
+            this.GeoGebraLogo.TabStop = false;
+            this.GeoGebraLogo.Click += new System.EventHandler(this.GeoGebraLogo_Click);
             // 
-            // GroupBox2
+            // PDFConverterLogo
             // 
-            this.GroupBox2.Controls.Add(this.MicrosoftTeamsLabel);
-            this.GroupBox2.Controls.Add(this.MicrosoftTeamsLogo);
-            this.GroupBox2.Controls.Add(this.ZoomLabel);
-            this.GroupBox2.Controls.Add(this.ZoomLogo);
-            this.GroupBox2.Controls.Add(this.GoogleClassroomLabel);
-            this.GroupBox2.Controls.Add(this.GoogleClassroomLogo);
-            this.GroupBox2.Controls.Add(this.GoogleMeetLabel);
-            this.GroupBox2.Controls.Add(this.GoogleMeetLogo);
-            this.GroupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GroupBox2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GroupBox2.Location = new System.Drawing.Point(12, 861);
-            this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Size = new System.Drawing.Size(605, 168);
-            this.GroupBox2.TabIndex = 31;
-            this.GroupBox2.TabStop = false;
-            this.GroupBox2.Text = "Conference";
+            this.PDFConverterLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PDFConverterLogo.Image = global::Project_Excelsior.CompanyLogo.PDFLogo;
+            this.PDFConverterLogo.Location = new System.Drawing.Point(485, 37);
+            this.PDFConverterLogo.Name = "PDFConverterLogo";
+            this.PDFConverterLogo.Size = new System.Drawing.Size(85, 85);
+            this.PDFConverterLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PDFConverterLogo.TabIndex = 19;
+            this.PDFConverterLogo.TabStop = false;
+            this.PDFConverterLogo.Click += new System.EventHandler(this.PDFConverterLogo_Click);
+            // 
+            // LucidChartLogo
+            // 
+            this.LucidChartLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LucidChartLogo.Image = global::Project_Excelsior.CompanyLogo.LucidChart;
+            this.LucidChartLogo.Location = new System.Drawing.Point(334, 37);
+            this.LucidChartLogo.Name = "LucidChartLogo";
+            this.LucidChartLogo.Size = new System.Drawing.Size(85, 85);
+            this.LucidChartLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.LucidChartLogo.TabIndex = 17;
+            this.LucidChartLogo.TabStop = false;
+            this.LucidChartLogo.Click += new System.EventHandler(this.LucidChartLogo_Click);
+            // 
+            // OmniCalculatorLogo
+            // 
+            this.OmniCalculatorLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.OmniCalculatorLogo.Image = global::Project_Excelsior.CompanyLogo.OmniCalculator;
+            this.OmniCalculatorLogo.Location = new System.Drawing.Point(34, 169);
+            this.OmniCalculatorLogo.Name = "OmniCalculatorLogo";
+            this.OmniCalculatorLogo.Size = new System.Drawing.Size(85, 85);
+            this.OmniCalculatorLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.OmniCalculatorLogo.TabIndex = 15;
+            this.OmniCalculatorLogo.TabStop = false;
+            this.OmniCalculatorLogo.Click += new System.EventHandler(this.OmniCalculatorLogo_Click);
+            // 
+            // MicrosoftOfficeLogo
+            // 
+            this.MicrosoftOfficeLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MicrosoftOfficeLogo.Image = global::Project_Excelsior.CompanyLogo.MicrosoftOffice;
+            this.MicrosoftOfficeLogo.Location = new System.Drawing.Point(183, 37);
+            this.MicrosoftOfficeLogo.Name = "MicrosoftOfficeLogo";
+            this.MicrosoftOfficeLogo.Size = new System.Drawing.Size(85, 85);
+            this.MicrosoftOfficeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MicrosoftOfficeLogo.TabIndex = 13;
+            this.MicrosoftOfficeLogo.TabStop = false;
+            this.MicrosoftOfficeLogo.Click += new System.EventHandler(this.MicrosoftOfficeLogo_Click);
+            // 
+            // GoolgleDocsLogo
+            // 
+            this.GoolgleDocsLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GoolgleDocsLogo.Image = global::Project_Excelsior.CompanyLogo.GoogleDocs;
+            this.GoolgleDocsLogo.Location = new System.Drawing.Point(33, 37);
+            this.GoolgleDocsLogo.Name = "GoolgleDocsLogo";
+            this.GoolgleDocsLogo.Size = new System.Drawing.Size(85, 85);
+            this.GoolgleDocsLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GoolgleDocsLogo.TabIndex = 0;
+            this.GoolgleDocsLogo.TabStop = false;
+            this.GoolgleDocsLogo.Click += new System.EventHandler(this.GoolgleDocsLogo_Click);
+            // 
+            // ConferenceGroup
+            // 
+            this.ConferenceGroup.Controls.Add(this.MicrosoftTeamsLabel);
+            this.ConferenceGroup.Controls.Add(this.MicrosoftTeamsLogo);
+            this.ConferenceGroup.Controls.Add(this.ZoomLabel);
+            this.ConferenceGroup.Controls.Add(this.ZoomLogo);
+            this.ConferenceGroup.Controls.Add(this.GoogleClassroomLabel);
+            this.ConferenceGroup.Controls.Add(this.GoogleClassroomLogo);
+            this.ConferenceGroup.Controls.Add(this.GoogleMeetLabel);
+            this.ConferenceGroup.Controls.Add(this.GoogleMeetLogo);
+            this.ConferenceGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ConferenceGroup.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConferenceGroup.Location = new System.Drawing.Point(11, 1023);
+            this.ConferenceGroup.Name = "ConferenceGroup";
+            this.ConferenceGroup.Size = new System.Drawing.Size(605, 168);
+            this.ConferenceGroup.TabIndex = 31;
+            this.ConferenceGroup.TabStop = false;
+            this.ConferenceGroup.Text = "Conference";
             // 
             // MicrosoftTeamsLabel
             // 
@@ -869,6 +900,128 @@
             this.ZoomLabel.Text = "Zoom";
             this.ZoomLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // ZoomLogo
+            // 
+            this.ZoomLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ZoomLogo.Image = global::Project_Excelsior.CompanyLogo.Zoom;
+            this.ZoomLogo.Location = new System.Drawing.Point(334, 37);
+            this.ZoomLogo.Name = "ZoomLogo";
+            this.ZoomLogo.Size = new System.Drawing.Size(85, 85);
+            this.ZoomLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ZoomLogo.TabIndex = 15;
+            this.ZoomLogo.TabStop = false;
+            this.ZoomLogo.Click += new System.EventHandler(this.ZoomLogo_Click);
+            // 
+            // GoogleClassroomLogo
+            // 
+            this.GoogleClassroomLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GoogleClassroomLogo.Image = global::Project_Excelsior.CompanyLogo.GoogleClassroom;
+            this.GoogleClassroomLogo.Location = new System.Drawing.Point(183, 37);
+            this.GoogleClassroomLogo.Name = "GoogleClassroomLogo";
+            this.GoogleClassroomLogo.Size = new System.Drawing.Size(85, 85);
+            this.GoogleClassroomLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GoogleClassroomLogo.TabIndex = 13;
+            this.GoogleClassroomLogo.TabStop = false;
+            this.GoogleClassroomLogo.Click += new System.EventHandler(this.GoogleClassroomLogo_Click);
+            // 
+            // GoogleMeetLogo
+            // 
+            this.GoogleMeetLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GoogleMeetLogo.Image = global::Project_Excelsior.CompanyLogo.GoogleMeet;
+            this.GoogleMeetLogo.Location = new System.Drawing.Point(33, 37);
+            this.GoogleMeetLogo.Name = "GoogleMeetLogo";
+            this.GoogleMeetLogo.Size = new System.Drawing.Size(85, 85);
+            this.GoogleMeetLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.GoogleMeetLogo.TabIndex = 0;
+            this.GoogleMeetLogo.TabStop = false;
+            this.GoogleMeetLogo.Click += new System.EventHandler(this.GoogleMeetLogo_Click);
+            // 
+            // systemGroup
+            // 
+            this.systemGroup.Controls.Add(this.BrowserLabel);
+            this.systemGroup.Controls.Add(this.BrowserLogo);
+            this.systemGroup.Controls.Add(this.NeoLMSLabel);
+            this.systemGroup.Controls.Add(this.LMSLogo);
+            this.systemGroup.Controls.Add(this.SVCCSystemlabel);
+            this.systemGroup.Controls.Add(this.SvccLogo);
+            this.systemGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.systemGroup.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.systemGroup.Location = new System.Drawing.Point(11, 82);
+            this.systemGroup.Name = "systemGroup";
+            this.systemGroup.Size = new System.Drawing.Size(605, 168);
+            this.systemGroup.TabIndex = 29;
+            this.systemGroup.TabStop = false;
+            this.systemGroup.Text = "System";
+            // 
+            // BrowserLabel
+            // 
+            this.BrowserLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.BrowserLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BrowserLabel.Location = new System.Drawing.Point(322, 125);
+            this.BrowserLabel.Name = "BrowserLabel";
+            this.BrowserLabel.Size = new System.Drawing.Size(109, 23);
+            this.BrowserLabel.TabIndex = 16;
+            this.BrowserLabel.Text = "Browser";
+            this.BrowserLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BrowserLogo
+            // 
+            this.BrowserLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BrowserLogo.Image = global::Project_Excelsior.Properties.Resources.Browser;
+            this.BrowserLogo.Location = new System.Drawing.Point(334, 37);
+            this.BrowserLogo.Name = "BrowserLogo";
+            this.BrowserLogo.Size = new System.Drawing.Size(85, 85);
+            this.BrowserLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BrowserLogo.TabIndex = 15;
+            this.BrowserLogo.TabStop = false;
+            this.BrowserLogo.Click += new System.EventHandler(this.BrowserLogo_Click);
+            // 
+            // NeoLMSLabel
+            // 
+            this.NeoLMSLabel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.NeoLMSLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NeoLMSLabel.Location = new System.Drawing.Point(171, 125);
+            this.NeoLMSLabel.Name = "NeoLMSLabel";
+            this.NeoLMSLabel.Size = new System.Drawing.Size(109, 23);
+            this.NeoLMSLabel.TabIndex = 14;
+            this.NeoLMSLabel.Text = "SVCC LMS";
+            this.NeoLMSLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LMSLogo
+            // 
+            this.LMSLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LMSLogo.Image = global::Project_Excelsior.CompanyLogo.NeoLMS;
+            this.LMSLogo.Location = new System.Drawing.Point(183, 37);
+            this.LMSLogo.Name = "LMSLogo";
+            this.LMSLogo.Size = new System.Drawing.Size(85, 85);
+            this.LMSLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.LMSLogo.TabIndex = 13;
+            this.LMSLogo.TabStop = false;
+            this.LMSLogo.Click += new System.EventHandler(this.LMSLogo_Click);
+            // 
+            // SVCCSystemlabel
+            // 
+            this.SVCCSystemlabel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.SVCCSystemlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SVCCSystemlabel.Location = new System.Drawing.Point(21, 125);
+            this.SVCCSystemlabel.Name = "SVCCSystemlabel";
+            this.SVCCSystemlabel.Size = new System.Drawing.Size(109, 23);
+            this.SVCCSystemlabel.TabIndex = 12;
+            this.SVCCSystemlabel.Text = "SVCC System";
+            this.SVCCSystemlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // SvccLogo
+            // 
+            this.SvccLogo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SvccLogo.Image = global::Project_Excelsior.Properties.Resources.SVCC_Logo_Fixed;
+            this.SvccLogo.Location = new System.Drawing.Point(33, 37);
+            this.SvccLogo.Name = "SvccLogo";
+            this.SvccLogo.Size = new System.Drawing.Size(85, 85);
+            this.SvccLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.SvccLogo.TabIndex = 0;
+            this.SvccLogo.TabStop = false;
+            this.SvccLogo.Click += new System.EventHandler(this.SvccLogo_Click);
+            // 
             // ResourcesPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -876,7 +1029,8 @@
             this.AutoScroll = true;
             this.AutoScrollMargin = new System.Drawing.Size(0, 15);
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(646, 363);
+            this.ClientSize = new System.Drawing.Size(663, 363);
+            this.Controls.Add(this.systemGroup);
             this.Controls.Add(this.CloudDriveGroup);
             this.Controls.Add(this.Panel2);
             this.Controls.Add(this.FileSharingGroup);
@@ -884,37 +1038,31 @@
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.SearchGroup);
-            this.Controls.Add(this.GroupBox1);
-            this.Controls.Add(this.GroupBox2);
+            this.Controls.Add(this.ToolsGroup);
+            this.Controls.Add(this.ConferenceGroup);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(662, 1597);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(662, 402);
             this.Name = "ResourcesPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tools and Resource";
+            this.Text = "Launch";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ResourcesPage_FormClosed);
             this.Load += new System.EventHandler(this.ResourcesPage_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.GoogleClassroomLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GeoGebraLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PDFConverterLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LucidChartLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.MicrosoftOfficeLogo)).EndInit();
             this.CloudDriveGroup.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DropboxLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MegaLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MediafireLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OneDriveLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleDriveLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GoogleMeetLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OmniCalculatorLogo)).EndInit();
             this.FileSharingGroup.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ZippyshareLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.StreamableLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PastebinLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgurLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GoolgleDocsLogo)).EndInit();
             this.MailGroup.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.AppleMailLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.YahooMailLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OutlookLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GmailLogo)).EndInit();
             this.SearchGroup.ResumeLayout(false);
@@ -923,10 +1071,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.ResearchGateLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.GoogleScholarLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MerriamLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ZoomLogo)).EndInit();
-            this.GroupBox1.ResumeLayout(false);
-            this.GroupBox2.ResumeLayout(false);
+            this.ToolsGroup.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.GeoGebraLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PDFConverterLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LucidChartLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OmniCalculatorLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MicrosoftOfficeLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoolgleDocsLogo)).EndInit();
+            this.ConferenceGroup.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.MicrosoftTeamsLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ZoomLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoogleClassroomLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GoogleMeetLogo)).EndInit();
+            this.systemGroup.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.BrowserLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LMSLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SvccLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -990,10 +1150,21 @@
         internal System.Windows.Forms.Label MeriamLabel;
         internal System.Windows.Forms.PictureBox MerriamLogo;
         internal System.Windows.Forms.PictureBox ZoomLogo;
-        internal System.Windows.Forms.GroupBox GroupBox1;
-        internal System.Windows.Forms.GroupBox GroupBox2;
+        internal System.Windows.Forms.GroupBox ToolsGroup;
+        internal System.Windows.Forms.GroupBox ConferenceGroup;
         internal System.Windows.Forms.Label MicrosoftTeamsLabel;
         internal System.Windows.Forms.PictureBox MicrosoftTeamsLogo;
         internal System.Windows.Forms.Label ZoomLabel;
+        internal System.Windows.Forms.GroupBox systemGroup;
+        internal System.Windows.Forms.Label BrowserLabel;
+        internal System.Windows.Forms.PictureBox BrowserLogo;
+        internal System.Windows.Forms.Label NeoLMSLabel;
+        internal System.Windows.Forms.PictureBox LMSLogo;
+        internal System.Windows.Forms.Label SVCCSystemlabel;
+        internal System.Windows.Forms.PictureBox SvccLogo;
+        internal System.Windows.Forms.Label YahooLabel;
+        internal System.Windows.Forms.PictureBox YahooMailLogo;
+        internal System.Windows.Forms.Label iCloudLabel;
+        internal System.Windows.Forms.PictureBox AppleMailLogo;
     }
 }
