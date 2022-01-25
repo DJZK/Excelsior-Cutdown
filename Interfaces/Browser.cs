@@ -43,8 +43,12 @@ namespace Project_Excelsior.Interfaces
             {
                 WebBrowser.Source = new Uri("https://google.com/");
             }
-            
-           
+
+            WebBrowser.Size = Size;
+            WebBrowser.Width = Width - 15;
+            WebBrowser.Height = Height - 100;
+
+
 
         }
 
@@ -60,11 +64,12 @@ namespace Project_Excelsior.Interfaces
             // Button
             ButtonGo.Location = new Point(AddressText.Location.X + AddressText.Width + 2, ButtonGo.Location.Y);
             ButtonNew.Location = new Point(ButtonGo.Location.X + ButtonGo.Width + 2, ButtonGo.Location.Y);
-          
+
 
             // Webview size
+            WebBrowser.Size = Size;
             WebBrowser.Width = Width - 15;
-            WebBrowser.Height = Height - 64;
+            WebBrowser.Height = Height - 100;
 
         }
 

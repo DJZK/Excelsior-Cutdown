@@ -213,7 +213,7 @@
             this.WebBrowser.DefaultBackgroundColor = System.Drawing.Color.White;
             this.WebBrowser.Location = new System.Drawing.Point(0, 61);
             this.WebBrowser.Name = "WebBrowser";
-            this.WebBrowser.Size = new System.Drawing.Size(631, 335);
+            this.WebBrowser.Size = new System.Drawing.Size(631, 332);
             this.WebBrowser.TabIndex = 2;
             this.WebBrowser.ZoomFactor = 1D;
             this.WebBrowser.CoreWebView2InitializationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs>(this.WebBrowser_CoreWebView2InitializationCompleted);
