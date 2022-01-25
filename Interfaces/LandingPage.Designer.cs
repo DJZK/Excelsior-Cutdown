@@ -43,9 +43,11 @@
             this.ResourcesButton = new System.Windows.Forms.Button();
             this.AboutUsButton = new System.Windows.Forms.Button();
             this.ContributeButton = new System.Windows.Forms.Button();
+            this.NewsWindow = new Microsoft.Web.WebView2.WinForms.WebView2();
             this.menuStrip1.SuspendLayout();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SvccLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewsWindow)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -69,7 +71,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -79,7 +81,7 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(488, 219);
+            this.ExitButton.Location = new System.Drawing.Point(493, 224);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(101, 30);
             this.ExitButton.TabIndex = 14;
@@ -139,7 +141,7 @@
             this.TitleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(22)))), ((int)(((byte)(25)))));
             this.TitleLabel.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLabel.ForeColor = System.Drawing.Color.White;
-            this.TitleLabel.Location = new System.Drawing.Point(296, 67);
+            this.TitleLabel.Location = new System.Drawing.Point(304, 55);
             this.TitleLabel.Name = "TitleLabel";
             this.TitleLabel.Size = new System.Drawing.Size(348, 55);
             this.TitleLabel.TabIndex = 10;
@@ -149,16 +151,16 @@
             // SvccLogo
             // 
             this.SvccLogo.Image = global::Project_Excelsior.Properties.Resources.SVCC_Logo_Fixed;
-            this.SvccLogo.Location = new System.Drawing.Point(33, 55);
+            this.SvccLogo.Location = new System.Drawing.Point(440, 113);
             this.SvccLogo.Name = "SvccLogo";
-            this.SvccLogo.Size = new System.Drawing.Size(227, 227);
+            this.SvccLogo.Size = new System.Drawing.Size(77, 72);
             this.SvccLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.SvccLogo.TabIndex = 9;
             this.SvccLogo.TabStop = false;
             // 
             // ResourcesButton
             // 
-            this.ResourcesButton.Location = new System.Drawing.Point(359, 172);
+            this.ResourcesButton.Location = new System.Drawing.Point(364, 177);
             this.ResourcesButton.Name = "ResourcesButton";
             this.ResourcesButton.Size = new System.Drawing.Size(101, 30);
             this.ResourcesButton.TabIndex = 15;
@@ -168,7 +170,7 @@
             // 
             // AboutUsButton
             // 
-            this.AboutUsButton.Location = new System.Drawing.Point(488, 172);
+            this.AboutUsButton.Location = new System.Drawing.Point(493, 177);
             this.AboutUsButton.Name = "AboutUsButton";
             this.AboutUsButton.Size = new System.Drawing.Size(101, 30);
             this.AboutUsButton.TabIndex = 16;
@@ -178,7 +180,7 @@
             // 
             // ContributeButton
             // 
-            this.ContributeButton.Location = new System.Drawing.Point(359, 219);
+            this.ContributeButton.Location = new System.Drawing.Point(364, 224);
             this.ContributeButton.Name = "ContributeButton";
             this.ContributeButton.Size = new System.Drawing.Size(101, 30);
             this.ContributeButton.TabIndex = 17;
@@ -186,11 +188,23 @@
             this.ContributeButton.UseVisualStyleBackColor = true;
             this.ContributeButton.Click += new System.EventHandler(this.ContributeButton_Click);
             // 
+            // NewsWindow
+            // 
+            this.NewsWindow.CreationProperties = null;
+            this.NewsWindow.DefaultBackgroundColor = System.Drawing.Color.White;
+            this.NewsWindow.Location = new System.Drawing.Point(24, 39);
+            this.NewsWindow.Name = "NewsWindow";
+            this.NewsWindow.Size = new System.Drawing.Size(257, 273);
+            this.NewsWindow.TabIndex = 18;
+            this.NewsWindow.ZoomFactor = 1D;
+            this.NewsWindow.CoreWebView2InitializationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs>(this.NewsWindow_CoreWebView2InitializationCompleted);
+            // 
             // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(681, 373);
+            this.Controls.Add(this.NewsWindow);
             this.Controls.Add(this.ContributeButton);
             this.Controls.Add(this.AboutUsButton);
             this.Controls.Add(this.ResourcesButton);
@@ -213,6 +227,7 @@
             this.menuStrip1.PerformLayout();
             this.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SvccLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewsWindow)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +249,6 @@
         internal System.Windows.Forms.Button ResourcesButton;
         internal System.Windows.Forms.Button AboutUsButton;
         internal System.Windows.Forms.Button ContributeButton;
+        private Microsoft.Web.WebView2.WinForms.WebView2 NewsWindow;
     }
 }

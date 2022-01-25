@@ -19650,6 +19650,24 @@
   <data name="neoLMSURL" xml:space="preserve">
     <value>https://svcc.neolms.com</value>
   </data>
+  <data name="newsString" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;&lt;/title&gt;
+  &lt;link href="style.css" rel="stylesheet" /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;script&gt;
+  &lt;/script&gt;
+
+&lt;a class="twitter-timeline" href="https://twitter.com/DJZKOfficial?ref_src=twsrc%5Etfw"&gt;Tweets by DJZKOfficial&lt;/a&gt; &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
   <data name="omniCalculatorURL" xml:space="preserve">
     <value>https://www.omnicalculator.com/</value>
   </data>

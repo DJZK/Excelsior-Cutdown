@@ -41,7 +41,8 @@ namespace Project_Excelsior.Interfaces
             }
             else
             {
-                WebBrowser.Source = new Uri("https://google.com/");
+               
+                 WebBrowser.Source = new Uri("https://google.com/");
             }
 
             WebBrowser.Size = Size;
