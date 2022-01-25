@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -44,36 +43,12 @@
             this.AboutUsButton = new System.Windows.Forms.Button();
             this.ContributeButton = new System.Windows.Forms.Button();
             this.NewsWindow = new Microsoft.Web.WebView2.WinForms.WebView2();
-            this.menuStrip1.SuspendLayout();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SvccLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NewsWindow)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(681, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+          
             // 
             // timer1
             // 
@@ -81,11 +56,11 @@
             // 
             // ExitButton
             // 
-            this.ExitButton.Location = new System.Drawing.Point(493, 224);
+            this.ExitButton.Location = new System.Drawing.Point(526, 208);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(101, 30);
             this.ExitButton.TabIndex = 14;
-            this.ExitButton.Text = "Quit";
+            this.ExitButton.Text = "Exit";
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
@@ -96,7 +71,7 @@
             this.Panel1.Controls.Add(this.TimeLabel);
             this.Panel1.Controls.Add(this.VersionLabel);
             this.Panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(22)))), ((int)(((byte)(25)))));
-            this.Panel1.Location = new System.Drawing.Point(11, 331);
+            this.Panel1.Location = new System.Drawing.Point(10, 329);
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(657, 32);
             this.Panel1.TabIndex = 11;
@@ -141,26 +116,26 @@
             this.TitleLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(22)))), ((int)(((byte)(25)))));
             this.TitleLabel.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLabel.ForeColor = System.Drawing.Color.White;
-            this.TitleLabel.Location = new System.Drawing.Point(304, 55);
+            this.TitleLabel.Location = new System.Drawing.Point(354, 22);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(348, 55);
+            this.TitleLabel.Size = new System.Drawing.Size(313, 47);
             this.TitleLabel.TabIndex = 10;
             this.TitleLabel.Text = "Welcome to SVCC System!";
             this.TitleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SvccLogo
             // 
-            this.SvccLogo.Image = global::Project_Excelsior.Properties.Resources.SVCC_Logo_Fixed;
-            this.SvccLogo.Location = new System.Drawing.Point(440, 113);
+            this.SvccLogo.Image = global::Project_Excelsior.Properties.Resources.SVCC_Logo_Fixed_Contrast_3;
+            this.SvccLogo.Location = new System.Drawing.Point(392, 72);
             this.SvccLogo.Name = "SvccLogo";
-            this.SvccLogo.Size = new System.Drawing.Size(77, 72);
+            this.SvccLogo.Size = new System.Drawing.Size(242, 242);
             this.SvccLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.SvccLogo.TabIndex = 9;
             this.SvccLogo.TabStop = false;
             // 
             // ResourcesButton
             // 
-            this.ResourcesButton.Location = new System.Drawing.Point(364, 177);
+            this.ResourcesButton.Location = new System.Drawing.Point(401, 161);
             this.ResourcesButton.Name = "ResourcesButton";
             this.ResourcesButton.Size = new System.Drawing.Size(101, 30);
             this.ResourcesButton.TabIndex = 15;
@@ -170,7 +145,7 @@
             // 
             // AboutUsButton
             // 
-            this.AboutUsButton.Location = new System.Drawing.Point(493, 177);
+            this.AboutUsButton.Location = new System.Drawing.Point(526, 161);
             this.AboutUsButton.Name = "AboutUsButton";
             this.AboutUsButton.Size = new System.Drawing.Size(101, 30);
             this.AboutUsButton.TabIndex = 16;
@@ -180,7 +155,7 @@
             // 
             // ContributeButton
             // 
-            this.ContributeButton.Location = new System.Drawing.Point(364, 224);
+            this.ContributeButton.Location = new System.Drawing.Point(401, 208);
             this.ContributeButton.Name = "ContributeButton";
             this.ContributeButton.Size = new System.Drawing.Size(101, 30);
             this.ContributeButton.TabIndex = 17;
@@ -192,9 +167,9 @@
             // 
             this.NewsWindow.CreationProperties = null;
             this.NewsWindow.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.NewsWindow.Location = new System.Drawing.Point(24, 39);
+            this.NewsWindow.Location = new System.Drawing.Point(23, 22);
             this.NewsWindow.Name = "NewsWindow";
-            this.NewsWindow.Size = new System.Drawing.Size(257, 273);
+            this.NewsWindow.Size = new System.Drawing.Size(322, 292);
             this.NewsWindow.TabIndex = 18;
             this.NewsWindow.ZoomFactor = 1D;
             this.NewsWindow.CoreWebView2InitializationCompleted += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs>(this.NewsWindow_CoreWebView2InitializationCompleted);
@@ -212,9 +187,7 @@
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.SvccLogo);
-            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "LandingPage";
@@ -223,19 +196,14 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LandingPage_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.LandingPage_FormClosed);
             this.Load += new System.EventHandler(this.LandingPage_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SvccLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NewsWindow)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Timer timer1;
         internal System.Windows.Forms.Button ExitButton;
         internal System.Windows.Forms.Panel Panel1;

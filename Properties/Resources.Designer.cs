@@ -465,6 +465,36 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SVCC_Logo_Fixed_Contrast {
+            get {
+                object obj = ResourceManager.GetObject("SVCC_Logo_Fixed_Contrast", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SVCC_Logo_Fixed_Contrast_2 {
+            get {
+                object obj = ResourceManager.GetObject("SVCC_Logo_Fixed_Contrast_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SVCC_Logo_Fixed_Contrast_3 {
+            get {
+                object obj = ResourceManager.GetObject("SVCC_Logo_Fixed_Contrast_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to svccregistrar@gmail.com.
         /// </summary>
         internal static string svccEmail {

@@ -196,6 +196,9 @@
     <None Include="Resources\Reload.png" />
     <None Include="Resources\YahooMail.jpg" />
     <None Include="Resources\iCloudMail.png" />
+    <None Include="Resources\SVCC Logo Fixed Contrast.png" />
+    <None Include="Resources\SVCC Logo Fixed Contrast 2.png" />
+    <None Include="Resources\SVCC Logo Fixed Contrast 3.png" />
     <Content Include="SVCC Icon Fixed.ico" />
   </ItemGroup>
   <ItemGroup>

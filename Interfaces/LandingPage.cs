@@ -57,10 +57,7 @@ namespace Project_Excelsior.Interfaces
             TimeLabel.Text = DateTime.Now.ToString();
         }
 
-        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Launcher.LaunchWindow("credits");
-        }
+       
 
         private void PortalButton_Click(object sender, EventArgs e)
         {
@@ -69,10 +66,7 @@ namespace Project_Excelsior.Interfaces
             this.Hide();
         }
 
-        private void contributeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Launcher.LaunchWindow("donate");
-        }
+
 
         private void LmsButton_Click(object sender, EventArgs e)
         {
@@ -98,15 +92,7 @@ namespace Project_Excelsior.Interfaces
             }
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageFunctions messenger = new MessageFunctions();
-            if (messenger.ExitAllConfirm())
-            {
-                FormChecker.closeAll = true;
-                Application.Exit();
-            }
-        }
+
 
         private void LandingPage_FormClosing(object sender, FormClosingEventArgs e)
         {
