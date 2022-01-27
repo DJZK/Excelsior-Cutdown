@@ -22,6 +22,7 @@ namespace Project_Excelsior.Interfaces
         {
             // On Load Settings
             Icon = Properties.Resources.SVCC_Icon_Fixed;
+            Location = FormChecker.LastLocation;
         }
 
         private void ResourcesPage_FormClosed(object sender, FormClosedEventArgs e)
@@ -33,6 +34,8 @@ namespace Project_Excelsior.Interfaces
         private void LoadBrowser(String title, String source)
         {
             Uri link = new Uri(source);
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow(title, link);
             this.Close();
         }
@@ -40,6 +43,8 @@ namespace Project_Excelsior.Interfaces
         private void AuthGoogle(String title, String source)
         {
             Uri link = new Uri(source);
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.AuthGoogle(title, link);
             this.Close();
         }
@@ -192,6 +197,8 @@ namespace Project_Excelsior.Interfaces
 
         private void BrowserLogo_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("browser");
             this.Close();
         }

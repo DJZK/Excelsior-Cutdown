@@ -24,6 +24,7 @@ namespace Project_Excelsior.Interfaces
            
             LabelCredits.Text = Properties.Resources.appVersion;
             Icon = Properties.Resources.SVCC_Icon_Fixed;
+            Location = FormChecker.LastLocation;
         }
 
         private void Credits_FormClosed(object sender, FormClosedEventArgs e)

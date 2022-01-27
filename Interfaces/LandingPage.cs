@@ -77,6 +77,8 @@ namespace Project_Excelsior.Interfaces
 
         private void ResourcesButton_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("resourcesPage");
             this.Close();
         }
@@ -107,11 +109,15 @@ namespace Project_Excelsior.Interfaces
 
         private void AboutUsButton_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("credits");
         }
 
         private void ContributeButton_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("donate");
         }
 

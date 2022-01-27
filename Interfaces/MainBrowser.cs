@@ -32,6 +32,7 @@ namespace Project_Excelsior.Interfaces
             Text = title;
             Icon = Properties.Resources.SVCC_Icon_Fixed;
             PageNameToolStripMenuItem.Text = title;
+            Location = FormChecker.LastLocation;
 
             // Browser
             WebView2.Source = source;
@@ -111,18 +112,23 @@ namespace Project_Excelsior.Interfaces
         private void MainMenuToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("land");
         }
 
         private void DonateToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("donate");
         }
 
         private void AboutUsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("credits");
         }
 
@@ -141,6 +147,8 @@ namespace Project_Excelsior.Interfaces
         private void CoreWebView2_NewWindowRequested(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NewWindowRequestedEventArgs e)
         {
             Uri handling = new Uri(e.Uri);
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("PopUp: " + title, handling);
             e.Handled = true;
         }
@@ -165,6 +173,8 @@ namespace Project_Excelsior.Interfaces
 
         private void LaunchToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("resourcesPage");
         }
     }

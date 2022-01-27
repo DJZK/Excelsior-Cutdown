@@ -32,6 +32,7 @@ namespace Project_Excelsior.Interfaces
         {
             // Form
             Icon = Properties.Resources.SVCC_Icon_Fixed;
+            Location = FormChecker.LastLocation;
 
 
             // WebView
@@ -86,6 +87,9 @@ namespace Project_Excelsior.Interfaces
 
         private void CoreWebView2_NewWindowRequested(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NewWindowRequestedEventArgs e)
         {
+
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Browser brow = new Browser();
             brow.popup = true;
             brow.link = new Uri (e.Uri);
@@ -97,6 +101,8 @@ namespace Project_Excelsior.Interfaces
 
         private void ButtonNew_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Browser brow = new Browser();
             brow.Show();
         }
@@ -154,12 +160,17 @@ namespace Project_Excelsior.Interfaces
 
         private void launchToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("resourcesPage");
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
             Browser brow = new Browser();
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             brow.Show();
         }
 
@@ -173,11 +184,15 @@ namespace Project_Excelsior.Interfaces
 
         private void contributeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("donate");
         }
 
         private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            FormChecker.LastLocation.X = Location.X + 20;
+            FormChecker.LastLocation.Y = Location.Y + 20;
             Launcher.LaunchWindow("credits");
         }
 

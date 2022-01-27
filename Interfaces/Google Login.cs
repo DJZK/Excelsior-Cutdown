@@ -32,6 +32,7 @@ namespace Project_Excelsior.Interfaces
 
             // Form load parameters
             Icon = Properties.Resources.SVCC_Icon_Fixed;
+            Location = FormChecker.LastLocation;
             Uri uri = new Uri("https://accounts.google.com");
             textBox1.Text = uri.ToString();
             GoogleAuth.Source = uri;
@@ -62,11 +63,15 @@ namespace Project_Excelsior.Interfaces
             textBox1.Text = GoogleAuth.Source.ToString();
             if (e.IsErrorPage)
             {
+                FormChecker.LastLocation.X = Location.X + 20;
+                FormChecker.LastLocation.Y = Location.Y + 20;
                 Launcher.LaunchWindow(forwardTitle, forwardLink);
                 this.Close();
             }
             else if (GoogleAuth.Source.ToString().Equals("https://myaccount.google.com/general-light"))
             {
+                FormChecker.LastLocation.X = Location.X + 20;
+                FormChecker.LastLocation.Y = Location.Y + 20;
                 Launcher.LaunchWindow(forwardTitle, forwardLink);
                 this.Close();
             }

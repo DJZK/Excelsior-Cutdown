@@ -26,8 +26,10 @@ namespace Project_Excelsior.Interfaces
         private void Donate_Load(object sender, EventArgs e)
         {
             MessageFunctions messenger = new MessageFunctions();
+            
             messenger.Interested();
             // Form load properties
+            Location = FormChecker.LastLocation;
             Icon = Properties.Resources.SVCC_Icon_Fixed;
         }
     }

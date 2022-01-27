@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace Project_Excelsior.Functions
 {
@@ -11,6 +12,10 @@ namespace Project_Excelsior.Functions
     {
 
         public static Boolean closeAll = false;
+        public static Point LastLocation = new Point();
+
+   
+
         public static void CheckForms()
         {
 
