@@ -86,12 +86,10 @@ namespace Project_Excelsior.Interfaces
         private void ExitButton_Click(object sender, EventArgs e)
         {
             MessageFunctions messenger = new MessageFunctions();
-            if (messenger.ExitAllConfirm())
-            {
+          
                 FormChecker.closeAll = true;
                 Application.Exit();
-               
-            }
+     
         }
 
 
@@ -136,6 +134,7 @@ namespace Project_Excelsior.Interfaces
 
         private void CoreWebView2_NewWindowRequested(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NewWindowRequestedEventArgs e)
         {
+            System.Diagnostics.Process.Start(e.Uri);
             e.Handled = true;
         }
     }

@@ -61,7 +61,7 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to release v4.1.28.2.
+        ///   Looks up a localized string similar to release v4.1.29.3.
         /// </summary>
         internal static string appVersion {
             get {
@@ -324,7 +324,8 @@ namespace Project_Excelsior.Properties {
         ///  &lt;script&gt;
         ///  &lt;/script&gt;
         ///
-        ///&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/DJZKOfficial?ref_src=twsrc%5Etfw&quot;&gt;Tweets by DJZKOfficial&lt;/a&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        ///&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/PhCHED?ref_src=twsrc%5Etfw&quot;&gt;Tweets by PhCHED&lt;/a&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        ///
         ///&lt;/body&gt;
         ///&lt;/html&gt;.
         /// </summary>

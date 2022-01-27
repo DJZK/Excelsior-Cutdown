@@ -7,7 +7,7 @@
     <ProjectGuid>{3A8A1310-39B6-436A-ABC6-A8EFF96D2BD2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Project_Excelsior</RootNamespace>
-    <AssemblyName>Project Excelsior</AssemblyName>
+    <AssemblyName>SVCC System</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
