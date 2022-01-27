@@ -61,7 +61,7 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to release v3.0.20.4.
+        ///   Looks up a localized string similar to release v4.0.26.1.
         /// </summary>
         internal static string appVersion {
             get {
@@ -311,6 +311,30 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///&lt;html lang=&quot;en&quot;&gt;
+        ///&lt;head&gt;
+        ///  &lt;meta charset=&quot;utf-8&quot;&gt;
+        ///  &lt;title&gt;&lt;/title&gt;
+        ///  &lt;link href=&quot;style.css&quot; rel=&quot;stylesheet&quot; /&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///
+        ///  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
+        ///  &lt;script&gt;
+        ///  &lt;/script&gt;
+        ///
+        ///&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/DJZKOfficial?ref_src=twsrc%5Etfw&quot;&gt;Tweets by DJZKOfficial&lt;/a&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        ///&lt;/body&gt;
+        ///&lt;/html&gt;.
+        /// </summary>
+        internal static string newsString {
+            get {
+                return ResourceManager.GetString("newsString", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://www.omnicalculator.com/.
         /// </summary>
         internal static string omniCalculatorURL {
@@ -436,6 +460,36 @@ namespace Project_Excelsior.Properties {
         internal static System.Drawing.Bitmap SVCC_Logo_Fixed {
             get {
                 object obj = ResourceManager.GetObject("SVCC_Logo_Fixed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SVCC_Logo_Fixed_Contrast {
+            get {
+                object obj = ResourceManager.GetObject("SVCC_Logo_Fixed_Contrast", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SVCC_Logo_Fixed_Contrast_2 {
+            get {
+                object obj = ResourceManager.GetObject("SVCC_Logo_Fixed_Contrast_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SVCC_Logo_Fixed_Contrast_3 {
+            get {
+                object obj = ResourceManager.GetObject("SVCC_Logo_Fixed_Contrast_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

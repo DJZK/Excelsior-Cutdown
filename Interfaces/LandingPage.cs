@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 using Project_Excelsior.Functions;
 
 
@@ -31,6 +32,24 @@ namespace Project_Excelsior.Interfaces
             VersionLabel.Text = Properties.Resources.appVersion;
             timer1.Start();
 
+            Uri path = new Uri(@"file:\\\" + Environment.CurrentDirectory + @"\news.html");
+            String path2 = Environment.CurrentDirectory + @"\news.html";
+
+            if (File.Exists(path2))
+            {
+                File.WriteAllText(path2, string.Empty);
+                File.WriteAllText(path2, Properties.Resources.newsString);
+            }
+
+            else
+            {
+                File.WriteAllText(path2,Properties.Resources.newsString);
+            }
+           
+
+            NewsWindow.Source = path;
+           
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -38,10 +57,7 @@ namespace Project_Excelsior.Interfaces
             TimeLabel.Text = DateTime.Now.ToString();
         }
 
-        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Launcher.LaunchWindow("credits");
-        }
+       
 
         private void PortalButton_Click(object sender, EventArgs e)
         {
@@ -50,10 +66,7 @@ namespace Project_Excelsior.Interfaces
             this.Hide();
         }
 
-        private void contributeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Launcher.LaunchWindow("donate");
-        }
+
 
         private void LmsButton_Click(object sender, EventArgs e)
         {
@@ -79,15 +92,7 @@ namespace Project_Excelsior.Interfaces
             }
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageFunctions messenger = new MessageFunctions();
-            if (messenger.ExitAllConfirm())
-            {
-                FormChecker.closeAll = true;
-                Application.Exit();
-            }
-        }
+
 
         private void LandingPage_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -108,6 +113,24 @@ namespace Project_Excelsior.Interfaces
         private void ContributeButton_Click(object sender, EventArgs e)
         {
             Launcher.LaunchWindow("donate");
+        }
+
+        private void NewsWindow_CoreWebView2InitializationCompleted(object sender, Microsoft.Web.WebView2.Core.CoreWebView2InitializationCompletedEventArgs e)
+        {
+
+            // Specific setting change
+            NewsWindow.CoreWebView2.Settings.AreDefaultContextMenusEnabled = false;
+            NewsWindow.CoreWebView2.Settings.AreDevToolsEnabled = false;
+            NewsWindow.CoreWebView2.Settings.AreDefaultScriptDialogsEnabled = false;
+            NewsWindow.CoreWebView2.Settings.IsStatusBarEnabled = false;
+            NewsWindow.CoreWebView2.Settings.IsWebMessageEnabled = false;
+
+            NewsWindow.CoreWebView2.NewWindowRequested += CoreWebView2_NewWindowRequested;
+        }
+
+        private void CoreWebView2_NewWindowRequested(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NewWindowRequestedEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

@@ -143,7 +143,7 @@ namespace Project_Excelsior.Interfaces
 
         private void MicrosoftTeamsLogo_Click(object sender, EventArgs e)
         {
-            LoadBrowser("Zoom", Properties.Resources.microsoftTeamsURL);
+            LoadBrowser("Microsoft Teams", Properties.Resources.microsoftTeamsURL);
         }
 
         private void GoogleDriveLogo_Click(object sender, EventArgs e)
