@@ -68,7 +68,7 @@ namespace Project_Excelsior.Interfaces
                 Launcher.LaunchWindow(forwardTitle, forwardLink);
                 this.Close();
             }
-            else if (GoogleAuth.Source.ToString().Equals("https://myaccount.google.com/general-light"))
+            else if (GoogleAuth.Source.ToString().Equals("https://myaccount.google.com/general-light") || GoogleAuth.Source.ToString().Contains("myaccount.google.com")) { }
             {
                 FormChecker.LastLocation.X = Location.X + 20;
                 FormChecker.LastLocation.Y = Location.Y + 20;
