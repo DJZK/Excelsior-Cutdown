@@ -21,13 +21,13 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={userappdata}\Pixel Cowboy Studios\{#MyAppName}
 DisableDirPage=yes
 DisableProgramGroupPage=yes
-LicenseFile=D:\PC\Desktop\SVCC System\docs\EULA.txt
-InfoBeforeFile=D:\PC\Desktop\SVCC System\docs\System Requirements.txt
+LicenseFile=D:\PC\Desktop\Builder\Excelsior\docs\EULA.txt
+InfoBeforeFile=D:\PC\Desktop\Builder\Excelsior\docs\System Requirements.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=D:\PC\Desktop\output
+OutputDir=D:\PC\Desktop\Builder\Output
 OutputBaseFilename=svcc-setup
-SetupIconFile=D:\PC\Desktop\SVCC System\docs\SVCC Icon Fixed.ico
+SetupIconFile=D:\PC\Desktop\Builder\Excelsior\docs\SVCC Icon Fixed.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -39,10 +39,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}";
 
 [Files]
-Source: "D:\PC\Desktop\SVCC System\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\PC\Desktop\SVCC System\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\PC\Desktop\runtimes\dotNet.exe"; DestDir: "{app}\runtimes"; Flags: ignoreversion; AfterInstall: RunDotNet
-Source: "D:\PC\Desktop\runtimes\webview.exe"; DestDir: "{app}\runtimes"; Flags: ignoreversion; AfterInstall: RunWebView
+Source: "D:\PC\Desktop\Builder\Excelsior\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\PC\Desktop\Builder\Excelsior\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\PC\Desktop\Builder\Runtimes\dotNet.exe"; DestDir: "{app}\runtimes"; Flags: ignoreversion; AfterInstall: RunDotNet
+Source: "D:\PC\Desktop\Builder\Runtimes\webview.exe"; DestDir: "{app}\runtimes"; Flags: ignoreversion; AfterInstall: RunWebView
 
 [Code]
 procedure RunDotNet;
