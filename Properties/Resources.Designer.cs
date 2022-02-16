@@ -323,9 +323,7 @@ namespace Project_Excelsior.Properties {
         ///  &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;&gt;&lt;/script&gt;
         ///  &lt;script&gt;
         ///  &lt;/script&gt;
-        ///
-        ///&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/PhCHED?ref_src=twsrc%5Etfw&quot;&gt;Tweets by PhCHED&lt;/a&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-        ///
+        ///&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/SVCC_Bulletin?ref_src=twsrc%5Etfw&quot;&gt;Tweets by SVCC_Bulletin&lt;/a&gt; &lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
         ///&lt;/body&gt;
         ///&lt;/html&gt;.
         /// </summary>
