@@ -88,28 +88,28 @@
             // HomeToolStripMenuItem
             // 
             this.HomeToolStripMenuItem.Name = "HomeToolStripMenuItem";
-            this.HomeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.HomeToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.HomeToolStripMenuItem.Text = "Home";
             this.HomeToolStripMenuItem.Click += new System.EventHandler(this.HomeToolStripMenuItem_Click);
             // 
             // BackToolStripMenuItem
             // 
             this.BackToolStripMenuItem.Name = "BackToolStripMenuItem";
-            this.BackToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.BackToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.BackToolStripMenuItem.Text = "Back";
             this.BackToolStripMenuItem.Click += new System.EventHandler(this.BackToolStripMenuItem_Click);
             // 
             // ForwardToolStripMenuItem
             // 
             this.ForwardToolStripMenuItem.Name = "ForwardToolStripMenuItem";
-            this.ForwardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ForwardToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.ForwardToolStripMenuItem.Text = "Forward";
             this.ForwardToolStripMenuItem.Click += new System.EventHandler(this.ForwardToolStripMenuItem_Click);
             // 
             // NavigateToolStripMenuItem
             // 
             this.NavigateToolStripMenuItem.Name = "NavigateToolStripMenuItem";
-            this.NavigateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NavigateToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.NavigateToolStripMenuItem.Text = "Refresh";
             this.NavigateToolStripMenuItem.Click += new System.EventHandler(this.NavigateToolStripMenuItem_Click);
             // 
@@ -128,7 +128,7 @@
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.ExitToolStripMenuItem.Text = "Exit Application";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -165,6 +165,7 @@
             this.ClientSize = new System.Drawing.Size(679, 481);
             this.Controls.Add(this.MenuStrip1);
             this.Controls.Add(this.WebView2);
+            this.MinimumSize = new System.Drawing.Size(695, 520);
             this.Name = "MainBrowser";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SVCC System";
