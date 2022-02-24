@@ -28,7 +28,7 @@ namespace Project_Excelsior.Interfaces
             // Warning
             MessageFunctions messenger = new MessageFunctions();
 
-            messenger.FeatureExperimental();
+            // messenger.FeatureExperimental();
 
             // Form load parameters
             Icon = Properties.Resources.SVCC_Icon_Fixed;
