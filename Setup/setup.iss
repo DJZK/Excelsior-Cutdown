@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "SVCC System"
-#define MyAppVersion "release v4.1.29.3"
+#define MyAppVersion "release v4.3.46.0"
 #define MyAppPublisher "Pixel Cowboy Studios"
 #define MyAppURL "https://github.com/DJZK"
 #define MyAppExeName "SVCC System.exe"
