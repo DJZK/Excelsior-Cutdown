@@ -119,16 +119,6 @@ namespace Project_Excelsior.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap CAW_old {
-            get {
-                object obj = ResourceManager.GetObject("CAW_old", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to https://www.dropbox.com/.
         /// </summary>
         internal static string dropBoxURL {
@@ -393,6 +383,16 @@ namespace Project_Excelsior.Properties {
         internal static System.Drawing.Bitmap Pixel_Cowboy {
             get {
                 object obj = ResourceManager.GetObject("Pixel_Cowboy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pixel_Cowboy_old {
+            get {
+                object obj = ResourceManager.GetObject("Pixel_Cowboy_old", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

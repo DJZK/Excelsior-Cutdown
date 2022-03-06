@@ -107,7 +107,7 @@
             // 
             // PixelCowboyLogo
             // 
-            this.PixelCowboyLogo.Image = global::Project_Excelsior.Properties.Resources.Pixel_Cowboy;
+            this.PixelCowboyLogo.Image = global::Project_Excelsior.Properties.Resources.Pixel_Cowboy_old;
             this.PixelCowboyLogo.Location = new System.Drawing.Point(5, 9);
             this.PixelCowboyLogo.Name = "PixelCowboyLogo";
             this.PixelCowboyLogo.Size = new System.Drawing.Size(58, 58);

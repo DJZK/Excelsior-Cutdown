@@ -189,6 +189,7 @@
     <None Include="Resources\SVCC Logo Fixed Contrast.png" />
     <None Include="Resources\SVCC Logo Fixed Contrast 2.png" />
     <None Include="Resources\SVCC Logo Fixed Contrast 3.png" />
+    <None Include="Resources\Pixel_Cowboy.jpg" />
     <Content Include="SVCC Icon Fixed.ico" />
   </ItemGroup>
   <ItemGroup>

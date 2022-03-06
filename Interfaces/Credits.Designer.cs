@@ -224,7 +224,7 @@
             // 
             // PictureBox2
             // 
-            this.PictureBox2.Image = global::Project_Excelsior.Properties.Resources.Pixel_Cowboy;
+            this.PictureBox2.Image = global::Project_Excelsior.Properties.Resources.Pixel_Cowboy_old;
             this.PictureBox2.Location = new System.Drawing.Point(17, 377);
             this.PictureBox2.Name = "PictureBox2";
             this.PictureBox2.Size = new System.Drawing.Size(64, 66);
